@@ -34,22 +34,44 @@ body {
 	background-color: #aac;
 	float: left;
 	height: 300px;
+	position: relative;
 	width: 874px;
 }
 
-.hero_init {
-	background-color: #111;
-	height: 150px;
-	overflow: hidden;
+.hero_left {
+	display: inline-block;
+	height: 100px;
+	left: 0;
 	opacity: 0.25;
+	overflow: hidden;
 	position: relative;
-	width: 150px;
+	width: 100px;
 }
 
-.hero_page {
+.hero_left_page {
 	background-image: url('pics/baloon.jpg');
 	height: 333px;
 	left: -150px;
+	position: absolute;
+	top: -150px;
+	width: 500px;
+}
+
+.hero_right {
+	background-color: #111;
+	height: 150px;
+	left: 724px;
+	opacity: 0.25;
+	overflow: hidden;
+	position: absolute;	
+	top: 150px;	
+	width: 150px;
+}
+
+.hero_right_page {
+	background-image: url('pics/baloon.jpg');
+	height: 333px;
+	left: 0px;
 	position:absolute;
 	top: -150px;
 	width: 500px;
