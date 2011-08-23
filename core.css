@@ -1,0 +1,62 @@
+body {  
+	border: 0;
+	margin: 0;
+	padding: 0;  
+} 
+
+.main {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+}
+
+.header {
+	background-color: #aca;
+	height: 100px;
+	width: 1024px;
+}
+
+.central {
+	background-color: #ccc;
+	height: 300px;
+	width: 1024px;
+}
+
+.side_menu {
+	background-color: #caa;
+	float: left;
+	height: 300px;
+	width: 150px;
+}
+
+.content {
+	background-color: #aac;
+	float: left;
+	height: 300px;
+	width: 874px;
+}
+
+.hero_init {
+	background-color: #111;
+	height: 150px;
+	overflow: hidden;
+	opacity: 0.25;
+	position: relative;
+	width: 150px;
+}
+
+.hero_page {
+	background-image: url('pics/baloon.jpg');
+	height: 333px;
+	left: -150px;
+	position:absolute;
+	top: -150px;
+	width: 500px;
+}
+
+.footer {
+	background-color: #aca;
+	height: 100px;
+	width: 100%;
+}
