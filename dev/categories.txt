@@ -1,7 +1,5 @@
 Principal (Description abstract (What, How))
 
-Contact Us
-
 About Cenicis
 	History
 	Objectives (mission, vision)
@@ -11,9 +9,11 @@ Services
 	technical
 	categories
 
-Portafolio
+Work Portafolio
 	Done
 	Current...
+
+Contact Us
 
 People (Directory)
 	People	-> for each (contact data, publications, projects)
@@ -21,6 +21,16 @@ People (Directory)
 
 Publications
 
-Web Map
 
-Language
+----> header:
+	Web Map
+	Language
+---->
+
+---> footer:
+	CENiCis
+		location (uacj, calle #, Mexico...)
+		tel, fax...
+	Copyright...
+------> (strips..., sub columns.., right line separated,
+	beautiful background...)

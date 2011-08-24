@@ -17,6 +17,17 @@ body {
 	width: 1024px;
 }
 
+.header_title {
+	color: #fff;
+	display: inline-block;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 30px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 150px;
+}
+
 .central {
 	background-color: #ccc;
 	height: 300px;
@@ -34,15 +45,22 @@ body {
 	background-color: #caa;
 	list-style-type: none;
 	margin: 0;
+	margin-top: 15px;
 	padding: 0px;
 }
 
 .side_menu_navi li {
-	padding: 5px;
+	display: block;
+	height: 30px;
+	padding: 0;
+	width: 100%;
 }
 
 .side_menu_navi li a {
+	color: #fff;
 	display: block;
+	line-height: 30px;
+	height: 100%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -126,4 +144,15 @@ body {
 	background-color: #aca;
 	height: 100px;
 	width: 100%;
+}
+
+.footer_text {
+	color: #fff;
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 150px;
 }
