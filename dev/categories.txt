@@ -1,0 +1,26 @@
+Principal (Description abstract (What, How))
+
+Contact Us
+
+About Cenicis
+	History
+	Objectives (mission, vision)
+	Location (google map)
+
+Services
+	technical
+	categories
+
+Portafolio
+	Done
+	Current...
+
+People (Directory)
+	People	-> for each (contact data, publications, projects)
+	Join Us
+
+Publications
+
+Web Map
+
+Language
