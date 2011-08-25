@@ -90,7 +90,7 @@ body {
 }
 
 .hero_left_page {
-	background-image: url('pics/baloon.jpg');
+	background-image: url('../pics/baloon.jpg');
 	height: 333px;
 	left: -250px;
 	position: absolute;
@@ -110,7 +110,7 @@ body {
 }
 
 .hero_central_page {
-	background-image: url('pics/umbrella.jpg');
+	background-image: url('../pics/umbrella.jpg');
 	height: 450px;
 	left: -350px;
 	position: absolute;
@@ -132,7 +132,7 @@ body {
 }
 
 .hero_right_page {
-	background-image: url('pics/baloon.jpg');
+	background-image: url('../pics/baloon.jpg');
 	height: 333px;
 	left: -250px;
 	position:absolute;
