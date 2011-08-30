@@ -40,11 +40,11 @@ $(document).ready(function(){
 
 	$('div#hero_right').mouseenter(function() {
 		change_page('#hero_right div', '0', '0', 500);
-		change_cont('#hero_right', '374px', '0px', '500px', '300px', 1.0, 500);
+		change_cont('#hero_right', '230px', '50px', '500px', '300px', 1.0, 500);
 	});
 	$('div#hero_right').mouseleave(function() {
 		change_page('#hero_right div', '-250px', '-75px', 500);
-		change_cont('#hero_right', '724px', '150px', '150px', '150px', 0.25, 500);
+		change_cont('#hero_right', '580px', '200px', '150px', '150px', 0.25, 500);
 	});
 	// --------------------------------------------
 });

@@ -5,20 +5,20 @@ body {
 } 
 
 .main {
-	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1024px;
+	width: 730px;
 }
 
 .header {
-	background-color: #aca;
+	border-bottom: 1px solid #ccc;
 	height: 100px;
-	width: 1024px;
+	margin-bottom: 30px;
+	width: 100%;
 }
 
 .header_title {
-	color: #fff;
+	color: #ccc;
 	display: inline-block;
 	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 	font-size: 30px;
@@ -29,56 +29,15 @@ body {
 }
 
 .central {
-	background-color: #ccc;
-	height: 300px;
-	width: 1024px;
-}
-
-.side_menu {
-	background-color: #caa;
-	float: left;
-	height: 300px;
-	width: 150px;
-}
-
-.side_menu_navi {
-	background-color: #caa;
-	list-style-type: none;
-	margin: 0;
-	margin-top: 15px;
-	padding: 0px;
-}
-
-.side_menu_navi li {
-	display: block;
-	height: 30px;
-	padding: 0;
-	width: 100%;
-}
-
-.side_menu_navi li a {
-	color: #fff;
-	display: block;
-	line-height: 30px;
-	height: 100%;
-	text-align: center;
-	text-decoration: none;
-}
-
-.side_menu_navi li a:hover {
-	background-color: #ccc;
-}
-
-.content {
-	background-color: #aac;
-	float: left;
-	height: 300px;
+	height: 350px;
+	margin-bottom: 30px;
 	position: relative;
-	width: 874px;
+	width: 100%;
 }
 
 .hero_left {
 	display: inline-block;
+	filter: alpha(opacity=25);
 	height: 100px;
 	left: 0;
 	opacity: 0.25;
@@ -100,6 +59,7 @@ body {
 
 .hero_central {
 	display: inline-block;
+	filter: alpha(opacity=25);
 	height: 200px;
 	left: 350px;
 	opacity: 0.25;
@@ -121,12 +81,13 @@ body {
 
 .hero_right {
 	display: inline-block;
+	filter: alpha(opacity=25);
 	height: 150px;
-	left: 724px;
+	left: 580px;
 	opacity: 0.25;
 	overflow: hidden;
 	position: absolute;	
-	top: 150px;	
+	top: 200px;	
 	width: 150px;
 	z-index: 1;
 }
@@ -141,18 +102,24 @@ body {
 }
 
 .footer {
-	background-color: #aca;
+	border-top: 1px solid #ccc;
 	height: 100px;
+	position: relative;
 	width: 100%;
 }
 
-.footer_text {
-	color: #fff;
-	display: block;
-	height: 100px;
-	line-height: 100px;
-	margin-left: auto;
-	margin-right: auto;
+.footer_text_wrapper {
+	display: inline-block;
+	height: 50px;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -25px;
+	position: absolute;
 	text-align: center;
-	width: 150px;
+	top: 50%;
+	width: 100px;
+}
+
+.footer_text {
+	color: #999;
 }
