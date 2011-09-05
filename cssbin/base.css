@@ -10,33 +10,88 @@ body {
 	width: 720px;
 }
 
+p {
+	color: #888;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 16px;
+	margin-left: 0;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+h2 {
+	color: #88CC91;
+	display: inline-block;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	margin-left: 0;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+h2:hover {
+	color: #47CC56;
+}
+
+ul {
+	list-style-type: circle;
+	margin: 0;
+}
+
+li {
+	color: #888;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 16px;
+}
+
+ul ul {
+	list-style-type: none;
+	margin: 0;
+}
+
 .header {
-	border-bottom: 1px solid #ccc;
 	height: 40px;
-	margin-bottom: 30px;
 	width: 100%;
 }
 
 .header_title {
-	color: #ccc;
+	color: #88CC91;
 	display: inline-block;
 	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 	font-size: 30px;
+	font-weight: normal;
 	height: 40px;
 	line-height: 40px;
 	margin-left: 20px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
 	width: 300px;
 }
 
+.header_title:hover {
+	color: #47CC56;
+}
+
 .central {
-	height: 350px;
-	margin-bottom: 30px;
+	border-bottom: 1px solid #FFE7B5;
+	border-top: 1px solid #FFE7B5;
+	height: auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
 	position: relative;
 	width: 100%;
 }
 
+.central:hover {
+	border-bottom-color: #FFE671;
+	border-top-color: #FFE671;
+}
+
 .footer {
-	border-top: 1px solid #ccc;
 	height: 100px;
 	position: relative;
 	width: 100%;

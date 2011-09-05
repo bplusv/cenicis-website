@@ -1,13 +1,18 @@
+.content {
+	height: 350px;
+	width: 720px;
+}
+
 .hero_left {
 	display: inline-block;
 	filter: alpha(opacity=25);
-	height: 100px;
+	height: 150px;
 	left: 0;
 	opacity: 0.25;
 	overflow: hidden;
 	position: absolute;
-	top: 0;
-	width: 100px;
+	top: 25px;
+	width: 150px;
 	z-index: 1;
 }
 
@@ -24,11 +29,11 @@
 	display: inline-block;
 	filter: alpha(opacity=25);
 	height: 200px;
-	left: 350px;
+	left: 335px;
 	opacity: 0.25;
 	overflow: hidden;
 	position: absolute;
-	top: 50px;
+	top: 100px;
 	width: 50px;
 }
 
@@ -50,7 +55,7 @@
 	opacity: 0.25;
 	overflow: hidden;
 	position: absolute;	
-	top: 200px;	
+	top: 225px;	
 	width: 150px;
 	z-index: 1;
 }
