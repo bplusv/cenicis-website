@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	// hero animation on hover
 	// --------------------------------------------
+	/*
 	$('div#hero_left').mouseenter(function() {
 		change_page('div#hero_left div', '0', '0', 500);
 		change_cont('div#hero_left', '0px', '25px', '500px', '300px', 1.0, 500);
@@ -27,5 +28,12 @@ $(document).ready(function(){
 		change_page('#hero_right div', '-250px', '-75px', 500);
 		change_cont('#hero_right', '570px', '225px', '150px', '150px', 0.25, 500);
 	});
+	*/
 	// --------------------------------------------
+	var block = $('<div>');
+	block.addClass('block_1');
+	block.
+	$('div#content').append('<div class="block_1"></div>');
+	$('div#content').append('<div class="block_2"></div>');
+	$('div#content').append('<div class="block_3"></div>');
 });

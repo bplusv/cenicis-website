@@ -1,0 +1,2 @@
+#hash -> ajax in sharepoint!
+change menu in multilanguage!

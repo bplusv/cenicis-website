@@ -1,4 +1,6 @@
 body {  
+	background-image: url('../pix/stripe1.png');
+	background-repeat: repeat;
 	border: 0;
 	margin: 0;
 	padding: 0;  
@@ -53,42 +55,51 @@ ul ul {
 }
 
 .header {
-	height: 40px;
+	height: 80px;
 	width: 100%;
 }
 
+.header_logo {
+	display: inline-block;
+	float: left;
+}
+
 .header_title {
-	color: #88CC91;
+	color: #777;
 	display: inline-block;
 	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-	font-size: 30px;
+	font-size: 17px;
 	font-weight: normal;
-	height: 40px;
-	line-height: 40px;
+	height: 80px;
+	line-height: 80px;
+	float: left;
+	text-align: center;
+	width: 576px;
+}
+
+.header_titles {
+	color: #777;
+	display: inline-block;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	height: 80px;
+	line-height: 10px;
 	margin-left: 20px;
 	margin-bottom: 0;
 	margin-right: 0;
 	margin-top: 0;
-	width: 300px;
-}
-
-.header_title:hover {
-	color: #47CC56;
+	width: 400px;
 }
 
 .central {
-	border-bottom: 1px solid #FFE7B5;
-	border-top: 1px solid #FFE7B5;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	height: auto;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	position: relative;
 	width: 100%;
-}
-
-.central:hover {
-	border-bottom-color: #FFE671;
-	border-top-color: #FFE671;
 }
 
 .footer {
