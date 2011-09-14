@@ -1,12 +1,17 @@
 .content {
-	height: 350px;
+	height: 400px;
 	width: 720px;
 }
 
-.block_testi {
-	filter: alpha(opacity=50);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	-moz-opacity: 0.50;
-	-khtml-opacity: 0.50;
-	opacity: 0.50;
+.left_content {
+	float: left;
+	height: 400px;
+	position: relative;
+	width:330px;
+}
+
+.right_content {
+	float: left;
+	width:390px;
+	height: 400px;
 }
