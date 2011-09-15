@@ -1,5 +1,5 @@
-body {  
-	background-image: url('../pix/stripe1.png');
+body {
+	background-image: url('../pix/stripes.png');
 	background-repeat: repeat;
 	border: 0;
 	margin: 0;
@@ -116,6 +116,12 @@ ul ul {
 	color: #999;
 }
 
+.gendai_container {
+	height: 330px;
+	position: relative;
+	width: 330px;
+}
+
 .gendai_block {
 	display: inline-block;
 	height: 10px;
@@ -123,8 +129,4 @@ ul ul {
 	position: absolute;
 	top: 100px;
 	width: 10px;
-}
-
-.red {
-	background-color: #c00;
 }

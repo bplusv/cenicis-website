@@ -12,6 +12,21 @@
 
 .right_content {
 	float: left;
-	width:390px;
 	height: 400px;
+	position: relative;
+	width:390px;
+}
+
+.title_1 {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+
+.txt_1 {
+	left: 0px;
+	margin-left: 0px;
+	top: 100px;
+	position: absolute;
+	width: 300px;
 }

@@ -1,37 +1,4 @@
 $(document).ready(function(){
-	// hero animation on hover
-	// --------------------------------------------
-	/*
-	$('div#hero_left').mouseenter(function() {
-		change_page('div#hero_left div', '0', '0', 500);
-		change_cont('div#hero_left', '0px', '25px', '500px', '300px', 1.0, 500);
-	});
-	$('div#hero_left').mouseleave(function() {
-		change_page('div#hero_left div', '-250px', '-75px', 500);
-		change_cont('div#hero_left', '0px', '25px', '150px', '150px', 0.25, 500);
-	});
-
-	$('div#hero_central').mouseenter(function() {
-		change_page('div#hero_central div', '0', '0', 500);
-		change_cont('div#hero_central', '170px', '25px', '450px', '300px', 1.0, 500);
-	});
-	$('div#hero_central').mouseleave(function() {
-		change_page('div#hero_central div', '-350px', '-75px', 500);
-		change_cont('div#hero_central', '335px', '100px', '50px', '200px', 0.25, 500);
-	});
-
-	$('div#hero_right').mouseenter(function() {
-		change_page('#hero_right div', '0', '0', 500);
-		change_cont('#hero_right', '220px', '75px', '500px', '300px', 1.0, 500);
-	});
-	$('div#hero_right').mouseleave(function() {
-		change_page('#hero_right div', '-250px', '-75px', 500);
-		change_cont('#hero_right', '570px', '225px', '150px', '150px', 0.25, 500);
-	});
-	*/
-	// --------------------------------------------
-		
-
 
 	points = [ [10, 30], [30, 30],  [50, 30], [70, 30], [90, 30], [110, 30], [130, 30], [150, 30], [170, 30], [190, 30], [210, 30], [230, 30], [250, 30], [270, 30], [290, 30],
 				[10, 70], [30, 70], [50, 70], [70, 70], [90, 70], [110, 70],[130, 70], [150, 70],[170, 70], [190, 70], [210, 70], [230, 70], [250, 70], [270, 70], [290, 70],
@@ -52,14 +19,19 @@ $(document).ready(function(){
 				[170, 230], [190, 230],
 				
 				[170, 310], [190, 310]];
-
-	drawBlocks(points);
-	
-	$('div#left_content').mouseleave(function() {
-		$('div#left_content > img').addClass('trash');
-		$('div#left_content > img').fadeTo(1500, 0, function() {
+				
+	$('div#gendai_container').mouseleave(function() {
+		$('div#gendai_container > img').addClass('trash');
+		$('.trash').stop().fadeTo(1000, 0, function() {
 			$('.trash').remove();
-		});
-		drawBlocks(points);
+		 });
+		drawBlocks(points, 'div#gendai_container');
 	});
+	
+	drawBlocks(points, 'div#gendai_container');
+	$('#title_1').css('opacity', '0');
+	$('#txt_1').css('opacity', '0');
+	$('#title_1').animate({ top: 30}, { queue: false, duration: 500 }).animate({ opacity: 1 }, 1000);
+	$('#txt_1').animate({ opacity: 1 }, 1000);
+	
 });

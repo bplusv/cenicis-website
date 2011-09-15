@@ -17,28 +17,7 @@ function change_cont(cont_sel, new_cont_x, new_cont_y, new_cont_width, new_cont_
 	);
 }
 
-function drawBlocks2(coordinates) {
-	for (i in coordinates) {
-		var block = $('<div />').addClass('gendai_block');
-		var size = Math.floor(Math.random() * 46) + 5;
-		//size = 10;
-		block.css('width', size);
-		block.css('height', size);
-		block.css('left', coordinates[i][0] - size / 2);
-		block.css('top', coordinates[i][1] - size / 2);
-		var opacity = (Math.floor(Math.random() * 61) + 15) *.01;
-		block.fadeTo(1500, opacity);
-		block.mouseenter(function() {
-			
-		});
-		block.mouseleave(function() {
-			block.removeClass('red');
-		});
-		$('div#left_content').append(block);
-	}
-}
-
-function drawBlocks(coordinates) {
+function drawBlocks(coordinates, container_selector) {
 	for (i in coordinates) {
 		var block = $('<img />').addClass('gendai_block');
 		block.attr('src', '../../pix/gendai_block.png');
@@ -46,17 +25,20 @@ function drawBlocks(coordinates) {
 		var size = Math.floor(Math.random() * 101) + 10;
 		block.css('width', size);
 		block.css('height', size);
-		block.css('left', coordinates[i][0] - size / 2);
-		block.css('top', coordinates[i][1] - size / 2);
+		block.css('left', $(container_selector).width() / 2);
+		block.css('top', $(container_selector).height() / 2);
+		block.css('opacity', 0);
+		
 		var opacity = (Math.floor(Math.random() * 61) + 10) *.01;
-		var fade_time = (Math.floor(Math.random() * 3000) + 500);
-		block.fadeTo(fade_time, opacity);
-		$('div#left_content').append(block);
+		var fade_time = (Math.floor(Math.random() * 2001) + 500);
+
+		block.animate({ left: coordinates[i][0] - size / 2, top: coordinates[i][1] - size / 2 },
+						{ queue: false, duration: 700 }).animate(
+							{ opacity: opacity }, { duration: fade_time });
+		$(container_selector).append(block);
 		
 		block.mouseenter(function() {
-			for (i = 0; i < 1; i++) {
-				$(this).fadeTo(0, 1.0);
-			}
+			$(this).stop().fadeTo(0, 1.0);
 		});
 		block.mouseleave(function() {
 				$(this).fadeTo(500, 0);
