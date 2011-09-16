@@ -13,30 +13,26 @@ body {
 }
 
 p {
-	color: #888;
-	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-	font-family: Gill Sans / Gill Sans MT, sans-serif;
-	font-family: Impact, Charcoal, sans-serif;
-	font-family: Lucida Sans, Serif;
+	color: #999;
+	font-family: Century Gothic, sans-serif;
 	font-size: 15px;
+	line-height: 27px;
 	margin-left: 0;
 	margin-bottom: 10px;
 	margin-right: 0;
-	margin-top: 0;
+	margin-top: 0;	
 }
 
 h2 {
 	color: #88CC91;
 	display: inline-block;
-	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	font-family: Impact, Charcoal, sans-serif;
-	font-size:  20px;
-	font-weight: normal;
-	margin-left: 0;
-	margin-bottom: 10px;
-	margin-right: 0;
-	margin-top: 0;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size:  28px;
+	font-weight: 100;
+	letter-spacing: -1px;
+	line-height: 18px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 
 h2:hover {
@@ -71,15 +67,15 @@ ul ul {
 }
 
 .header_title {
-	color: #bababa;
+	color: #888;
 	display: inline-block;
+	float: left;
 	font-family: Lucida Sans, Serif;
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: normal;
 	height: 80px;
 	line-height: 80px;
 	margin: 0px;
-	float: left;
 	text-align: center;
 	width: 576px;
 }
