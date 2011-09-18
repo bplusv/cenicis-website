@@ -23,18 +23,16 @@ function drawBlocks(coordinates, container_selector) {
 		block.attr('src', '../../pix/gendai_block.png');
 		
 		var size = Math.floor(Math.random() * 101) + 10;
+		//size = 10;
 		block.css('width', size);
 		block.css('height', size);
 		block.css('left', $(container_selector).width() / 2);
 		block.css('top', $(container_selector).height() / 2);
-		block.css('opacity', 0);
+		block.css('opacity', 0.25);
 		
 		var opacity = (Math.floor(Math.random() * 61) + 10) *.01;
-		var fade_time = (Math.floor(Math.random() * 2001) + 500);
+		var fade_time = (Math.floor(Math.random() * 3001) + 1500);
 
-		block.animate({ left: coordinates[i][0] - size / 2, top: coordinates[i][1] - size / 2 },
-						{ queue: false, duration: 700 }).animate(
-							{ opacity: opacity }, { duration: fade_time });
 		$(container_selector).append(block);
 		
 		block.mouseenter(function() {
@@ -43,5 +41,16 @@ function drawBlocks(coordinates, container_selector) {
 		block.mouseleave(function() {
 				$(this).fadeTo(500, 0);
 		});
+		block.animate({ left: coordinates[i][0] - size / 2, top: coordinates[i][1] - size / 2 },
+						{ queue: false, duration: 1500 }).animate(
+							{ opacity: opacity}, { duration: fade_time });
 	}
+}
+
+function resetBlocks(coordinates, containter_selector) {
+	$(containter_selector + ' > img').addClass('trash');
+	$('.trash').stop().fadeTo(1000, 0, function() {
+		$('.trash').remove();
+	 });
+	drawBlocks(coordinates, containter_selector);
 }

@@ -1,10 +1,51 @@
-.contact_text {
-	text-align: center;
+.content {
+	height: 400px;
+	width: 720px;
 }
 
-.iit_logo {
-	display: block;
+.top_content {
+	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	position: relative;
+	width: 360px;
+}
+
+.bottom_content {
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 360px;
+}
+
+.title_1 {
+	height: 27px;
+	left: 50%;
+	margin-left: -38px;
+	top: -30px;
+	position: absolute;
+	width: 76px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	
+}
+
+.txt_1 {
+	left: 0px;
+	margin-left: 0px;
+	top: 40px;
+	position: absolute;
+	text-align: center;
+	width: 360px;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	
 }

@@ -8,18 +8,12 @@ $(document).ready(function(){
 				
 				[170, 310], [190, 310]];
 				
-	$('div#gendai_container').mouseleave(function() {
-		$('div#gendai_container > img').addClass('trash');
-		$('.trash').stop().fadeTo(1000, 0, function() {
-			$('.trash').remove();
-		 });
-		drawBlocks(points, 'div#gendai_container');
+	$('div#left_inner_content').mouseleave(function() {
+		resetBlocks(points, '#left_inner_content');
 	});
 	
-	drawBlocks(points, 'div#gendai_container');
-	$('#title_1').css('opacity', '0');
-	$('#txt_1').css('opacity', '0');
-	$('#title_1').animate({ top: 30}, { queue: false, duration: 500 }).animate({ opacity: 1 }, 1000);
-	$('#txt_1').animate({ opacity: 1 }, 1000);
+	drawBlocks(points, 'div#left_inner_content');
+	$('#title_1').animate({ top: 30}, { queue: false, duration: 1500 }).animate({ opacity: 1 }, 1500);
+	$('#txt_1').animate({ opacity: 1 }, 2000);
 	
 });

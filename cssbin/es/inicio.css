@@ -3,11 +3,17 @@
 	width: 720px;
 }
 
+.left_inner_content {
+	height: 330px;
+	position: relative;
+	width: 330px;
+}
+
 .left_content {
 	float: left;
 	height: 400px;
 	position: relative;
-	width:330px;
+	width: 330px;
 }
 
 .right_content {
@@ -21,6 +27,12 @@
 	left: 0px;
 	top: 0px;
 	position: absolute;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
 }
 
 .txt_1 {
@@ -29,4 +41,10 @@
 	top: 100px;
 	position: absolute;
 	width: 350px;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
 }
