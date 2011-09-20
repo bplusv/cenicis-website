@@ -23,7 +23,6 @@ function drawBlocks(coordinates, container_selector) {
 		block.attr('src', '../../pix/gendai_block.png');
 		
 		var size = Math.floor(Math.random() * 101) + 10;
-		//size = 10;
 		block.css('width', size);
 		block.css('height', size);
 		block.css('left', $(container_selector).width() / 2);

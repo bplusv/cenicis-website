@@ -15,10 +15,10 @@ $(document).ready(function(){
 	
 	drawBlocks(points_1, '#left_bottom_content');
 	$('#title_1').animate({ top: 0}, { queue: false, duration: 1500 }).animate({ opacity: 1 }, 1500);
-	$('#txt_1').animate({ opacity: 1 }, 2000);
+	$('#text_1').animate({ opacity: 1 }, 2000);
 	
 	drawBlocks(points_2, '#right_top_content');
 	$('#title_2').animate({ top: 0}, { queue: false, duration: 1500 }).animate({ opacity: 1 }, 1500);
-	$('#txt_2').animate({ opacity: 1 }, 2000);
+	$('#text_2').animate({ opacity: 1 }, 2000);
 	
 });

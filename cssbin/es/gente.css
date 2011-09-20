@@ -1,7 +1,67 @@
-.directory_list {
-	margin-bottom: 20px;
+.content {
+	height: 400px;
+	width: 720px;
 }
 
-.students_list {
+.left_content {
+	float: left;
+	height: 400px;
+	position: relative;
+	width: 360px;
+}
 
+.title_1 {
+	top: -30px;
+	position: absolute;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	
+}
+
+.text_1 {
+	left: 0px;
+	top: 40px;
+	position: absolute;
+	width: 360px;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+.title_2 {
+	top: 190px;
+	position: absolute;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+.text_2 {
+	left: 0px;
+	top: 260px;
+	position: absolute;
+	width: 360px;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+.right_content {
+	float: left;
+	height: 400px;
+	position: relative;
+	width: 360px;
 }
