@@ -48,7 +48,9 @@
 	top: 40px;
 	position: absolute;
 	text-align: left;
-	width: 720px;
+	padding: 0;
+	padding-left: 40px;
+	width: 680px;
 	
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
@@ -80,7 +82,9 @@
 	top: 40px;
 	position: absolute;
 	text-align: left;
-	width: 720px;
+	padding: 0;
+	padding-left: 40px;
+	width: 680px;
 	
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);

@@ -31,6 +31,9 @@
 	top: 40px;
 	position: absolute;
 	text-align: left;
+	padding: 0;
+	padding-left: 40px;
+	width: 320px;
 
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
