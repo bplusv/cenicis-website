@@ -1,8 +1,16 @@
 $(document).ready(function() {
 
-	points = [[250, 30], [270, 30],
-					[230, 70], [290, 70],
-					[250, 110], [270, 110],];
+	points = [
+				[50, 30],
+					[30, 70], 
+					
+					[350, 70], [410, 70],
+					
+					
+					 [690, 70],
+					[650, 110],
+					
+					];
 	$('div#middle_content').mouseleave(function() {
 		resetBlocks(points, '#middle_content');
 	});
