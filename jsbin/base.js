@@ -20,7 +20,7 @@ function change_cont(cont_sel, new_cont_x, new_cont_y, new_cont_width, new_cont_
 function drawBlocks(coordinates, container_selector) {
 	for (i in coordinates) {
 		var block = $('<img />').addClass('gendai_block');
-		block.attr('src', '../../pix/gendai_block.png');
+		block.attr('src', 'http://www.uacj.mx/IIT/CenICIS/pix/gendai_block.png');
 		
 		var size = Math.floor(Math.random() * 101) + 10;
 		block.css('width', size);

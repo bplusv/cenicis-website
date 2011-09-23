@@ -1,12 +1,12 @@
 .top_content {
-	height: 150px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	width: 720px;
 }
 .content {
-	height: 400px;
+	height: auto;
 	width: 720px;
 }
 
@@ -19,37 +19,9 @@
 }
 
 .title_1 {
-	height: 27px;
-	left: 50%;
-	margin-left: -38px;
-	top: -30px;
-	position: absolute;
-	width: 76px;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
-	
+	text-align: center;
 }
 
 .text_1 {
-	left: 0px;
-	margin-left: 0px;
-	top: 40px;
-	position: absolute;
-	padding: 0;
-	padding-left: 40px;
-	width: 680px;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
-	
-}
-
-.text_1 > li {
-	//margin-bottom: 10px;
 }

@@ -5,15 +5,9 @@ $(document).ready(function(){
 				[210, 150], [230, 150],
 				[170, 190], [190, 190],
 				[170, 230], [190, 230],
-				
-				[170, 310], [190, 310]];
-				
+				[170, 310], [190, 310]];	
 	$('div#left_inner_content').mouseleave(function() {
 		resetBlocks(points, '#left_inner_content');
 	});
-	
 	drawBlocks(points, 'div#left_inner_content');
-	$('#title_1').animate({ top: 30}, { queue: false, duration: 1500 }).animate({ opacity: 1 }, 1500);
-	$('#text_1').animate({ opacity: 1 }, 2000);
-	
 });

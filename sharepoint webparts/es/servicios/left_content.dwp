@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>left_content</Title>
+  <FrameType>None</FrameType>
+  <Description>Se usa para texto con formato, tablas e imágenes.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>CenterLeftColumn</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>No se puede importar este elemento Web.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><![CDATA[<div id="left_content" style="float: left;
+	height: auto;
+	position: relative;
+	width: 360px;">
+				<h2 id="title_1" style="text-align: center;color: #88CC91;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size:  23px;
+	font-weight: 100;
+	letter-spacing: -1px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;">Servicios</h2>
+				<ul id="text_1" style="list-style-type: circle;">
+					<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">Investigación</li>
+					<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">Desarrollo de Software
+						<ul style="list-style-type: none;">
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Páginas Web</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Aplicaciones de escritorio</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Software para dispositivos móviles</li>
+						</ul>
+					</li>
+					<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">Educación continua
+						<ul style="list-style-type: none;">
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Análisis y Diseño Orientado a Objetos</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-UML</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-PSP (Personal Software Process)</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Ingeniería de software básica e intermedia</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Procesos de desarrollo</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Ingeniería de requisitos</li>
+						</ul>
+					</li>
+					<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">Consultoría
+						<ul style="list-style-type: none;">
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Identificación, evaluación, mejora y documentación de procesos de desarrollo de software</li>
+							<li style="color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;">-Asesoría en la administración de proyectos de software</li>
+						</ul>
+					</li>
+				</ul>
+			</div>]]></Content>
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>

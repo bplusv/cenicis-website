@@ -11,8 +11,5 @@ $(document).ready(function(){
 		resetBlocks(points, '#right_content');
 	});
 
-	
 	drawBlocks(points, '#right_content');
-	$('#title_1').animate({ top: 0}, { queue: false, duration: 1500 }).animate({ opacity: 1 }, 1500);
-	$('#text_1').animate({ opacity: 1 }, 2000);
 });

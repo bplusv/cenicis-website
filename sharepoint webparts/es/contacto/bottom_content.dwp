@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>bottom_content</Title>
+  <FrameType>None</FrameType>
+  <Description>Se usa para texto con formato, tablas e imágenes.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>CenterLeftColumn</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>No se puede importar este elemento Web.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><![CDATA[<div id="bottom_content" style="height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 360px;">
+				<h2 id="title_1" style="color: #88CC91;
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size:  23px;
+	font-weight: 100;
+	letter-spacing: -1px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;text-align: center;">Contacto</h2><br />
+				<p id="text_1" style="text-align: center;
+	width: 360px;color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	margin-left: 0;
+	margin-bottom: 10px;
+	margin-right: 0;
+	margin-top: 0;	">
+					IIT - Edificio Y5, Sala 114<br />
+					Teléfono: (656)688-48-00 al 09 Ext. 6473<br />
+					Fax: (656)688-48-00 Ext. 4841<br />
+					Correo electrónico:&nbsp;<a href="mailto:cis@uacj.mx" style="color: #00C2FF;">cis@uacj.mx</a>
+				</p>
+			</div>]]></Content>
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>left_content</Title>
+  <FrameType>None</FrameType>
+  <Description>Se usa para texto con formato, tablas e imágenes.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>CenterLeftColumn</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>No se puede importar este elemento Web.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><![CDATA[<DIV style="POSITION: relative; WIDTH: 360px; FLOAT: left; HEIGHT: auto" id=left_content>
+<H2 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; LETTER-SPACING: -1px; PADDING-RIGHT: 0px; FONT-FAMILY: times, Times New Roman, times-roman, georgia, serif; COLOR: #88cc91; FONT-SIZE: 23px; FONT-WEIGHT: 100; PADDING-TOP: 0px" id=title_1>Directorio</H2><BR>
+<UL style="LIST-STYLE-TYPE: circle" id=text_1>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">M. C. Luis Felipe Fernández Martínez</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">M. C. Karla Miroslava Olmos Sánchez</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Dr. Jorge Enrique Rodas Osollo</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Dr. Victor Manuel Morales Rocha</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Ing. Berenice Acosta Castro</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Ing. Pedro Bañuelos Aguilar</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Ing. Yadira Kiquey Ortíz Chou</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Ing. Raúl Alejandro Vargas Acosta</LI></UL><BR><BR>
+<H2 style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; LETTER-SPACING: -1px; PADDING-RIGHT: 0px; FONT-FAMILY: times, Times New Roman, times-roman, georgia, serif; COLOR: #88cc91; FONT-SIZE: 23px; FONT-WEIGHT: 100; PADDING-TOP: 0px" id=title_2>Estudiantes</H2><BR>
+<UL style="LIST-STYLE-TYPE: circle" id=text_2>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Rocío Amaya Gardea</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Fernando Esteban Briceño Ramos</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Lizbeth Susana Cabrera Martínez</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Emmanuel Cortez Samaniego</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Jorge Luis Romero Romero</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">José Damián Sarabia Saavedra</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Hector Javier Záyago González</LI>
+<LI style="FONT-FAMILY: Century Gothic, sans-serif; COLOR: #999; FONT-SIZE: 14px">Luis Eduardo Salazar Valles</LI></UL></DIV>]]></Content>
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>

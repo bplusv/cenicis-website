@@ -22,7 +22,6 @@ p {
 
 h2 {
 	color: #88CC91;
-	display: inline-block;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	font-size:  23px;
 	font-weight: 100;
@@ -37,23 +36,24 @@ h2:hover {
 
 ul {
 	list-style-type: circle;
-	margin: 0;
+
 }
 
 li {
-	color: #888;
-	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
-	font-size: 16px;
+	color: #999;
+	font-family: Century Gothic, sans-serif;
+	font-size: 14px;
 }
 
 ul ul {
 	list-style-type: none;
-	margin: 0;
 }
 
 .header {
-	padding-top: 15px;
+	border-bottom: 1px solid #ccc;
 	height: 80px;
+	margin-bottom: 25px;
+	padding-top: 15px;
 	width: 100%;
 }
 
@@ -84,17 +84,15 @@ ul ul {
 }
 
 .central {
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
 	height: auto;
-	padding-bottom: 25px;
-	padding-top: 25px;
 	position: relative;
 	width: 100%;
 }
 
 .footer {
+	border-top: 1px solid #ccc;
 	height: 50px;
+	margin-top: 25px;
 	position: relative;
 	width: 100%;
 }

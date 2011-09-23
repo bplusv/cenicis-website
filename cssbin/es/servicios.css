@@ -1,45 +1,22 @@
 .content {
-	height: 400px;
+	height: auto;
+	overflow: hidden;
 	width: 720px;
 }
 
 .left_content {
 	float: left;
-	height: 400px;
+	height: auto;
 	position: relative;
 	width: 360px;
 }
 
 .title_1 {
-	height: 27px;
-	left: 50%;
-	margin-left: -38px;
-	top: -30px;
-	position: absolute;
-	width: 76px;
-	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+	text-align: center;
 }
 
 .text_1 {
-	left: 0px;
-	margin-left: 0px;
-	top: 40px;
-	position: absolute;
-	text-align: left;
-	padding: 0;
-	padding-left: 40px;
-	width: 320px;
-
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+	
 }
 
 .right_content {

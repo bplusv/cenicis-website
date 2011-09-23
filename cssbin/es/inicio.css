@@ -1,6 +1,6 @@
 .content {
-	height: 400px;
-	width: 720px;
+	height: auto;
+	overflow: hidden;
 }
 
 .left_inner_content {
@@ -18,33 +18,16 @@
 
 .right_content {
 	float: left;
-	height: 400px;
-	position: relative;
 	width: 390px;
 }
 
 .title_1 {
-	left: 0px;
-	top: 0px;
-	position: absolute;
-	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+
 }
 
 .text_1 {
-	left: 0px;
-	margin-left: 0px;
-	top: 100px;
-	position: absolute;
+
+
 	width: 350px;
-	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+
 }

@@ -1,66 +1,32 @@
 .content {
-	height: 400px;
+	height: auto;
+	overflow: hidden;
 	width: 720px;
 }
 
 .left_content {
 	float: left;
-	height: 400px;
+	height: auto;
 	position: relative;
 	width: 360px;
 }
 
 .title_1 {
-	top: -30px;
-	position: absolute;
-	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+
 	
 }
 
 .text_1 {
-	left: 0px;
-	top: 40px;
-	position: absolute;
-	padding: 0;
-	padding-left: 40px;
-	width: 320px;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
 }
 
 .title_2 {
-	top: 190px;
-	position: absolute;
 
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+
 }
 
 .text_2 {
-	left: 0px;
-	top: 260px;
-	position: absolute;
-	padding: 0;
-	padding-left: 40px;
-	width: 320px;
-	
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
+
 }
 
 .right_content {
