@@ -56,10 +56,11 @@ ul ul {
 	padding-top: 15px;
 	width: 100%;
 }
-
-.header_logo {
+.header_logo{
 	display: inline-block;
 	float: left;
+	width: 164px;
+	height: 80px;
 }
 
 .header_title {
@@ -73,7 +74,7 @@ ul ul {
 	line-height: 80px;
 	margin: 0px;
 	text-align: center;
-	width: 576px;
+	width: 556px;
 }
 
 
@@ -128,4 +129,31 @@ ul ul {
 	position: absolute;
 	top: 0px;
 	width: 10px;
+}
+
+.gendai_menu {
+	background-color: transparent;
+	background-image: url('../pix/menu_backs.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	color: #fff;
+	display: inline-block;
+	height: 39px;
+	left: 0px;
+	padding-left: 20px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 0px;
+	width: 164px;
+
+	font-family: Century Gothic, sans-serif;
+	font-size:  17px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 39px;
+}
+
+.spacer {
+	clear: both;
 }
