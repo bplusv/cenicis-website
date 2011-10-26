@@ -68,7 +68,7 @@ ul ul {
 	display: inline-block;
 	float: left;
 	font-family: Lucida Sans, Serif;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: normal;
 	height: 80px;
 	line-height: 80px;
@@ -135,23 +135,23 @@ ul ul {
 	background-color: transparent;
 	background-image: url('../pix/menu_backs.png');
 	background-repeat: no-repeat;
-	background-position: 0% 0%;
+	background-position: 0 0;
 	color: #fff;
 	display: inline-block;
-	height: 39px;
+	height: 25px;
 	left: 0px;
-	padding-left: 20px;
+	padding-left: 15px;
 	position: absolute;
 	text-align: left;
 	text-decoration: none;
 	top: 0px;
-	width: 164px;
+	width: 103px;
 
 	font-family: Century Gothic, sans-serif;
-	font-size:  17px;
+	font-size:  12px;
 	font-weight: normal;
 	letter-spacing: -1px;
-	line-height: 39px;
+	line-height: 25px;
 }
 
 .spacer {
