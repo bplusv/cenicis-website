@@ -1,6 +1,4 @@
 body {
-	background-image: url('../pix/stripes.png');
-	background-repeat: repeat;
 	border: 0;
 	margin: 0;
 	padding: 0;  
@@ -10,7 +8,7 @@ a {
 	color: #00C2FF;
 }
 p {
-	color: #999;
+	color: #777;
 	font-family: Century Gothic, sans-serif;
 	font-size: 14px;
 	line-height: 25px;
@@ -21,7 +19,7 @@ p {
 }
 
 h2 {
-	color: #88CC91;
+	color: #7b8;
 	font-family: times, Times New Roman, times-roman, georgia, serif;
 	font-size:  23px;
 	font-weight: 100;
@@ -50,7 +48,6 @@ ul ul {
 }
 
 .header {
-	border-bottom: 1px solid #ccc;
 	height: 80px;
 	margin-bottom: 25px;
 	padding-top: 15px;
@@ -64,11 +61,11 @@ ul ul {
 }
 
 .header_title {
-	color: #888;
+	color: #0066FF;
 	display: inline-block;
 	float: left;
 	font-family: Lucida Sans, Serif;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: normal;
 	height: 80px;
 	line-height: 80px;
@@ -91,7 +88,7 @@ ul ul {
 }
 
 .footer {
-	border-top: 1px solid #ccc;
+	
 	height: 50px;
 	margin-top: 25px;
 	position: relative;
