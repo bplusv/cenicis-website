@@ -8,12 +8,14 @@ $(document).ready(function(){
 				[160, 270],
 				[160, 310],
 				[160, 350],
-				[160, 390],
+				[140, 390], [180, 390],
+				[130, 410], [190, 410],
+				[120, 430], [200, 430]
 			];
-	$('div#right_content').mouseleave(function() {
-		resetBlocks(points, '#right_content');
-	});
 
-	
 	drawBlocks(points, '#right_content');
+	
+	menu_points = [[25, 25]];
+	var links = ['<a href="./inicio.html">Regresar</a>'];
+	drawBackMenu(menu_points, 'div#backer', links);
 });

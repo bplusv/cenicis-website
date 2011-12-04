@@ -7,10 +7,10 @@ $(document).ready(function(){
 				
 				
 				];
-	$('div#bottom_content').mouseleave(function() {
-		resetBlocks(points, '#bottom_content');
-	});
 
-	
 	drawBlocks(points, '#bottom_content');
+	
+	menu_points = [[25, 25]];
+	var links = ['<a href="./inicio.html">Regresar</a>'];
+	drawBackMenu(menu_points, 'div#backer', links);
 });

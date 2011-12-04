@@ -8,9 +8,9 @@ a {
 	color: #00C2FF;
 }
 p {
-	color: #777;
+	color: #333;
 	font-family: Century Gothic, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 25px;
 	margin-left: 0;
 	margin-bottom: 10px;
@@ -38,9 +38,10 @@ ul {
 }
 
 li {
-	color: #999;
+	color: #333;
 	font-family: Century Gothic, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
+	line-height: 25px;
 }
 
 ul ul {
@@ -61,12 +62,8 @@ ul ul {
 }
 
 .header_title {
-	color: #0066FF;
 	display: inline-block;
 	float: left;
-	font-family: Lucida Sans, Serif;
-	font-size: 15px;
-	font-weight: normal;
 	height: 80px;
 	line-height: 80px;
 	margin: 0px;
@@ -79,6 +76,13 @@ ul ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 720px;
+}
+
+.backer {
+	height: 75px;
+	overflow: visible;
+	position: relative;
+	width: 250px;
 }
 
 .central {
@@ -130,7 +134,7 @@ ul ul {
 
 .gendai_menu {
 	background-color: transparent;
-	background-image: url('../pix/menu_backs.png');
+	background-image: url('../pix/gendai_menu.png');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	color: #fff;
@@ -140,6 +144,29 @@ ul ul {
 	padding-left: 15px;
 	position: absolute;
 	text-align: left;
+	text-decoration: none;
+	top: 0px;
+	width: 103px;
+
+	font-family: Century Gothic, sans-serif;
+	font-size:  12px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 25px;
+}
+
+.gendai_back_menu {
+	background-color: transparent;
+	background-image: url('../pix/gendai_back_menu.png');
+	background-repeat: no-repeat;
+	background-position: -118px 0px;
+	color: #fff;
+	display: inline-block;
+	height: 25px;
+	left: 0px;
+	padding-right: 15px;
+	position: absolute;
+	text-align: right;
 	text-decoration: none;
 	top: 0px;
 	width: 103px;
