@@ -53,9 +53,10 @@ ul ul {
 	margin-bottom: 25px;
 	width: 100%;
 }
-.header_logo{
+.header_home_link{
 	display: inline-block;
 	float: left;
+	outline: 0;
 	height: 95px;
 }
 
@@ -87,7 +88,7 @@ ul ul {
 
 .footer {
 	background-color: transparent;
-	background-image: url('../pix/footer_background.png');
+	background-image: url('../pix/footer.png');
 	background-repeat: no-repeat;
 	height: 200px;
 	margin-top: 75px;

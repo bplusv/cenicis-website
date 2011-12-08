@@ -21,7 +21,9 @@
 }
 
 .title_1 {
-	text-align: right;
+	text-align: center;
+	padding-left: 25px;
+	width: 350px;
 }
 
 .text_1 {
