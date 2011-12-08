@@ -21,9 +21,10 @@
 }
 
 .title_1 {
-
+	text-align: right;
 }
 
 .text_1 {
+	padding-left: 25px;
 	width: 350px;
 }

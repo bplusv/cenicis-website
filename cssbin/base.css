@@ -49,26 +49,20 @@ ul ul {
 }
 
 .header {
-	height: 80px;
+	height: 95px;
 	margin-bottom: 25px;
-	padding-top: 15px;
 	width: 100%;
 }
 .header_logo{
 	display: inline-block;
 	float: left;
-	width: 164px;
-	height: 80px;
+	height: 95px;
 }
 
 .header_title {
 	display: inline-block;
-	float: left;
-	height: 80px;
-	line-height: 80px;
-	margin: 0px;
-	text-align: center;
-	width: 556px;
+	float: right;
+	height: 95px;
 }
 
 
@@ -92,9 +86,11 @@ ul ul {
 }
 
 .footer {
-	
-	height: 50px;
-	margin-top: 25px;
+	background-color: transparent;
+	background-image: url('../pix/footer_background.png');
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 75px;
 	position: relative;
 	width: 100%;
 }
@@ -112,6 +108,21 @@ ul ul {
 }
 
 .footer_text {
+	display: inline-block;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -165px;
+	top: 150px;
+	
+	font-family: Century Gothic, sans-serif;
+	font-size:  12px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-align: center;
+	width: 330px;
+	
+	/*
 	color: #999;
 	display: inline-block;
 	height: 20px;
@@ -121,6 +132,7 @@ ul ul {
 	position: absolute;
 	top: 50%;
 	width: 100px;
+	*/
 }
 
 .gendai_block {
@@ -139,20 +151,19 @@ ul ul {
 	background-position: 0 0;
 	color: #fff;
 	display: inline-block;
+	font-family: Century Gothic, sans-serif;
+	font-size:  12px;
+	font-weight: normal;
 	height: 25px;
 	left: 0px;
+	letter-spacing: -1px;
+	line-height: 25px;
 	padding-left: 15px;
 	position: absolute;
 	text-align: left;
 	text-decoration: none;
 	top: 0px;
 	width: 103px;
-
-	font-family: Century Gothic, sans-serif;
-	font-size:  12px;
-	font-weight: normal;
-	letter-spacing: -1px;
-	line-height: 25px;
 }
 
 .gendai_back_menu {
@@ -162,20 +173,19 @@ ul ul {
 	background-position: -118px 0px;
 	color: #fff;
 	display: inline-block;
+	font-family: Century Gothic, sans-serif;
+	font-size:  12px;
+	font-weight: normal;
 	height: 25px;
 	left: 0px;
+	letter-spacing: -1px;
+	line-height: 25px;
 	padding-right: 15px;
 	position: absolute;
 	text-align: right;
 	text-decoration: none;
 	top: 0px;
 	width: 103px;
-
-	font-family: Century Gothic, sans-serif;
-	font-size:  12px;
-	font-weight: normal;
-	letter-spacing: -1px;
-	line-height: 25px;
 }
 
 .spacer {
