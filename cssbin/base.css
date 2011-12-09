@@ -34,7 +34,8 @@ h2:hover {
 
 ul {
 	list-style-type: circle;
-
+	margin-bottom: 35px;
+	margin-top: 0;
 }
 
 li {
@@ -94,46 +95,6 @@ ul ul {
 	margin-top: 75px;
 	position: relative;
 	width: 100%;
-}
-
-.footer_text_wrapper {
-	display: inline-block;
-	height: 50px;
-	left: 50%;
-	margin-left: -150px;
-	margin-top: -25px;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	width: 300px;
-}
-
-.footer_text {
-	display: inline-block;
-	color: #fff;
-	position: absolute;
-	left: 50%;
-	margin-left: -165px;
-	top: 150px;
-	
-	font-family: Century Gothic, sans-serif;
-	font-size:  12px;
-	font-weight: normal;
-	letter-spacing: -1px;
-	text-align: center;
-	width: 330px;
-	
-	/*
-	color: #999;
-	display: inline-block;
-	height: 20px;
-	left: 50%;
-	margin-left: -50px;
-	margin-top: -10px;
-	position: absolute;
-	top: 50%;
-	width: 100px;
-	*/
 }
 
 .gendai_block {

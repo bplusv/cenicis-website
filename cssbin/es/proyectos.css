@@ -10,7 +10,7 @@
 	width: 720px;
 }
 
-.middle_content {
+.middle1_content {
 	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
@@ -18,13 +18,27 @@
 	width: 720px;
 }
 
-.bottom_content {
+.bottom1_content {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	width: 720px;
 }
 
+.middle2_content {
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 720px;
+}
+
+.bottom2_content {
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+}
 .title_1 {
 	text-align: center;
 }

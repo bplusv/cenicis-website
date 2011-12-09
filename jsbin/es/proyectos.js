@@ -3,7 +3,8 @@ $(document).ready(function() {
 				[40, 70], [335, 70], [395, 70],[675, 70],
 				[635, 110]];
 	
-	drawBlocks(points, '#middle_content');
+	drawBlocks(points, '#middle1_content');
+	drawBlocks(points, '#middle2_content');
 	
 	menu_points = [[25, 25]];
 	var links = ['<a href="./inicio.html">Regresar</a>'];
