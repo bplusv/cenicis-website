@@ -7,6 +7,7 @@ body {
 a {
 	color: #00C2FF;
 }
+
 p {
 	color: #333;
 	font-family: Century Gothic, sans-serif;
@@ -57,7 +58,7 @@ ul ul {
 .header_home_link{
 	display: inline-block;
 	float: left;
-	outline: 0;
+	border: none;
 	height: 95px;
 }
 
@@ -67,6 +68,9 @@ ul ul {
 	height: 95px;
 }
 
+.header_logo {
+	border: none;
+}
 
 .main {
 	margin-left: auto;
@@ -78,7 +82,7 @@ ul ul {
 	height: 75px;
 	overflow: visible;
 	position: relative;
-	width: 250px;
+	width: 100%;
 }
 
 .central {
@@ -89,7 +93,7 @@ ul ul {
 
 .footer {
 	background-color: transparent;
-	background-image: url('../pix/footer.png');
+	background-image: url('../webdesign/footer.png');
 	background-repeat: no-repeat;
 	height: 200px;
 	margin-top: 75px;
@@ -108,7 +112,7 @@ ul ul {
 
 .gendai_menu {
 	background-color: transparent;
-	background-image: url('../pix/gendai_menu.png');
+	background-image: url('../webdesign/gendai_menu.png');
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	color: #fff;
@@ -130,7 +134,7 @@ ul ul {
 
 .gendai_back_menu {
 	background-color: transparent;
-	background-image: url('../pix/gendai_back_menu.png');
+	background-image: url('../webdesign/gendai_back_menu.png');
 	background-repeat: no-repeat;
 	background-position: -118px 0px;
 	color: #fff;

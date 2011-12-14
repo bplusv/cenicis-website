@@ -1,7 +1,7 @@
 function drawBlocks(coordinates, container_selector) {
 	for (i in coordinates) {
 		var block = $('<img />').addClass('gendai_block');
-		block.attr('src', '../../pix/gendai_block.png');
+		block.attr('src', '../../webdesign/gendai_block.png');
 		var size = Math.floor(Math.random() * 101) + 10;
 		block.css('width', size);
 		block.css('height', size);
@@ -19,14 +19,14 @@ function drawBlocks(coordinates, container_selector) {
 		block.attr('final_pos_top', coordinates[i][1] - size / 2);
 		
 		block.click(function() {
-			$(this).attr('src', '../../pix/gendai_menu_block.png');
+			$(this).attr('src', '../../webdesign/gendai_menu_block.png');
 			var block_final_pos_left = parseInt($(this).parent().width() / 2 - $(this).width() / 2);
 			var block_final_pos_top = parseInt($(this).parent().height() / 2 - $(this).height() / 2);
 			$(this).stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
 				{ left: block_final_pos_left, top: block_final_pos_top }, 200);
 		});
 		block.mouseenter(function() {
-			$(this).attr('src', '../../pix/gendai_block.png');
+			$(this).attr('src', '../../webdesign/gendai_block.png');
 			var block_final_pos_left = parseInt($(this).attr('final_pos_left'));
 			var block_final_pos_top = parseInt($(this).attr('final_pos_top'));
 			$(this).stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
@@ -55,7 +55,7 @@ function drawMenu(coordinates, container_selector, links) {
 		// blocks //////////////////////////////////////////////////////////////////////////
 		var block = $('<img />').addClass('gendai_block');
 		blocks.push(block);
-		block.attr('src', '../../pix/gendai_block.png');
+		block.attr('src', '../../webdesign/gendai_block.png');
 		var size = Math.floor(Math.random() * 101) + 10;
 		block.css('width', size);
 		block.css('height', size);
@@ -68,7 +68,7 @@ function drawMenu(coordinates, container_selector, links) {
 		$(container_selector).append(block);
 		
 		block.mouseenter(function() {
-			$(this).attr('src', '../../pix/gendai_block.png');
+			$(this).attr('src', '../../webdesign/gendai_block.png');
 			var block_final_pos_left = parseInt($(this).attr('final_pos_left'));
 			var block_final_pos_top = parseInt($(this).attr('final_pos_top'));
 			$(this).stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
@@ -92,6 +92,8 @@ function drawMenu(coordinates, container_selector, links) {
 		link.css('top', $(container_selector).height() / 2);
 		link.css('opacity', 0);
 		link.css('z-index', 99);
+		link.css('color', '#fff');
+		link.css('text-decoration', 'none');
 		
 		$(container_selector).append(link);
 		link.mouseenter(function() {
@@ -99,7 +101,7 @@ function drawMenu(coordinates, container_selector, links) {
 			block = blocks[menu_block_i];
 			var block_final_pos_left = parseInt(block.attr('final_pos_left'));
 			var block_final_pos_top = parseInt(block.attr('final_pos_top'));
-			block.attr('src', '../../pix/gendai_menu_block.png');
+			block.attr('src', '../../webdesign/gendai_menu_block.png');
 			block.stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
 				{ left: block_final_pos_left, top: block_final_pos_top }, 200);
 				
@@ -114,7 +116,7 @@ function drawMenu(coordinates, container_selector, links) {
 			block = blocks[menu_block_i];
 			var block_final_pos_left = parseInt(block.attr('final_pos_left'));
 			var block_final_pos_top = parseInt(block.attr('final_pos_top'));
-			block.attr('src', '../../pix/gendai_block.png');
+			block.attr('src', '../../webdesign/gendai_block.png');
 			block.stop().animate({ opacity: 0.5 }, { queue: false, duration: 0 }).animate(
 				{ left: block_final_pos_left, top: block_final_pos_top }, 200);
 			
@@ -141,7 +143,7 @@ function drawBackMenu(coordinates, container_selector, links) {
 		// blocks //////////////////////////////////////////////////////////////////////////
 		var block = $('<img />').addClass('gendai_block');
 		blocks.push(block);
-		block.attr('src', '../../pix/gendai_block.png');
+		block.attr('src', '../../webdesign/gendai_block.png');
 		var size = Math.floor(Math.random() * 101) + 10;
 		block.css('width', size);
 		block.css('height', size);
@@ -154,7 +156,7 @@ function drawBackMenu(coordinates, container_selector, links) {
 		$(container_selector).append(block);
 		
 		block.mouseenter(function() {
-			$(this).attr('src', '../../pix/gendai_block.png');
+			$(this).attr('src', '../../webdesign/gendai_block.png');
 			var block_final_pos_left = parseInt($(this).attr('final_pos_left'));
 			var block_final_pos_top = parseInt($(this).attr('final_pos_top'));
 			$(this).stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
@@ -178,6 +180,8 @@ function drawBackMenu(coordinates, container_selector, links) {
 		link.css('top', $(container_selector).height() / 2);
 		link.css('opacity', 0);
 		link.css('z-index', 99);
+		link.css('color', '#fff');
+		link.css('text-decoration', 'none');
 		
 		$(container_selector).append(link);
 		link.mouseenter(function() {
@@ -185,7 +189,7 @@ function drawBackMenu(coordinates, container_selector, links) {
 			block = blocks[menu_block_i];
 			var block_final_pos_left = parseInt(block.attr('final_pos_left'));
 			var block_final_pos_top = parseInt(block.attr('final_pos_top'));
-			block.attr('src', '../../pix/gendai_menu_block.png');
+			block.attr('src', '../../webdesign/gendai_menu_block.png');
 			block.stop().animate({ opacity: 1 }, { queue: false, duration: 0 }).animate(
 				{ left: block_final_pos_left, top: block_final_pos_top }, 200);
 			
@@ -200,7 +204,7 @@ function drawBackMenu(coordinates, container_selector, links) {
 			block = blocks[menu_block_i];
 			var block_final_pos_left = parseInt(block.attr('final_pos_left'));
 			var block_final_pos_top = parseInt(block.attr('final_pos_top'));
-			block.attr('src', '../../pix/gendai_block.png');
+			block.attr('src', '../../webdesign/gendai_block.png');
 			block.stop().animate({ opacity: 0.5 }, { queue: false, duration: 0 }).animate(
 				{ left: block_final_pos_left, top: block_final_pos_top }, 200);
 			
