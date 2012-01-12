@@ -12,6 +12,9 @@
 
 .title_1 {
 	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_1 {
@@ -20,6 +23,9 @@
 
 .title_2 {
 	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_2 {
@@ -28,10 +34,16 @@
 
 .title_3 {
 	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .title_3_sub_1 {
-	text-align: left;
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_3 {
@@ -39,7 +51,10 @@
 }
 
 .title_3_sub_2 {
-	text-align: left;
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_4 {
@@ -47,7 +62,10 @@
 }
 
 .title_3_sub_3 {
-	text-align: left;
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_5 {

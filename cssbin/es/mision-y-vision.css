@@ -16,11 +16,13 @@
 .title_1 {
 	text-align: center;
 	width: 300px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_1 {
-
 	width: 300px;
+	text-align: justify;
 }
 
 .left_bottom_content {
@@ -52,9 +54,11 @@
 .title_2 {
 	text-align: center;
 	width: 300px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_2 {
-
+	text-align: justify;
 	width: 300px;
 }

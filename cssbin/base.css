@@ -19,18 +19,43 @@ p {
 	margin-top: 0;	
 }
 
-h2 {
-	color: #7b8;
-	font-family: times, Times New Roman, times-roman, georgia, serif;
-	font-size:  23px;
-	font-weight: 100;
-	letter-spacing: -1px;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+h1 {
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:19px;
+	line-height:60px;
+	color:#666;
+	display:inline-block;
+	margin:0;
 }
 
-h2:hover {
-	color: #47CC56;
+.lsq_bracket {
+	float:left;
+	margin-left:20px;
+}
+
+.rsq_bracket {
+	float:right;
+	margin-right:20px;
+}
+
+h2 {
+	font-family:'Trebuchet MS', Helvetica, sans-serif;
+	font-size:15px;
+	line-height:60px;
+	color:#888;
+	display:inline-block;
+	margin:0;
+}
+
+
+.lpipe {
+	float:left;
+	margin-left:80px;
+}
+
+.rpipe {
+	float:right;
+	margin-right:80px;
 }
 
 ul {
@@ -95,10 +120,25 @@ ul ul {
 	background-color: transparent;
 	background-image: url('../webdesign/footer.png');
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 224px;
 	margin-top: 75px;
 	position: relative;
 	width: 100%;
+}
+
+.footer_text {
+	color:#fff;
+	position:relative;
+	left:190px;
+	top:155px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	line-height:13px;
+	margin:0;
+	display:inline-block;
+	width:360px;
+	height:30px;
+	text-align:center;
 }
 
 .gendai_block {

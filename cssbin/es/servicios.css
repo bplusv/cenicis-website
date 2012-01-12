@@ -12,10 +12,16 @@
 
 .title_1 {
 	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .title_1_sub_1 {
-
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_1 {
@@ -23,7 +29,10 @@
 }
 
 .title_1_sub_2 {
-
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_2{
@@ -31,7 +40,10 @@
 }
 
 .title_1_sub_3 {
-
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_3 {
@@ -39,7 +51,10 @@
 }
 
 .title_1_sub_4 {
-
+	text-align: center;
+	width: 360px;
+	height:60px;
+	margin-bottom:15px;
 }
 
 .text_4 {
