@@ -9,8 +9,9 @@ $(document).ready(function(){
 
 	drawBlocks(points_1, '#left_bottom_content');
 	drawBlocks(points_2, '#right_top_content');
+	startBlocksAnimation();
 	
 	menu_points = [[25, 25]];
 	var links = ['<a href="./inicio.html">Regresar</a>'];
-	drawBackMenu(menu_points, 'div#backer', links);
+	drawMenu(menu_points, 'div#backer', links, 'left');
 });

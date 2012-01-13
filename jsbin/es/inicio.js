@@ -17,6 +17,7 @@ $(document).ready(function(){
 				'<a href="./publicaciones.html">Publicaciones</a>',
 				'<a href="./servicios.html">Servicios</a>'];
 	drawBlocks(points, 'div#left_inner_content');
-	drawMenu(menu_points, 'div#left_inner_content', links);
+	startBlocksAnimation();
 	
+	drawMenu(menu_points, 'div#left_inner_content', links, 'right');
 });

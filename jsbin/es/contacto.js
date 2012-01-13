@@ -10,8 +10,9 @@ $(document).ready(function(){
 				[10, 210], [50, 210], [90, 210], [130, 210], [170, 210], [210, 210], [250, 210], [290, 210], [330, 210]];
 
 	drawBlocks(points, '#top_content');
+	startBlocksAnimation();
 					
 	menu_points = [[25, 25]];
 	var links = ['<a href="./inicio.html">Regresar</a>'];
-	drawBackMenu(menu_points, 'div#backer', links);
+	drawMenu(menu_points, 'div#backer', links, 'left');
 });
