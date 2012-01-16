@@ -7,11 +7,11 @@ $(document).ready(function(){
 				[230, 70], [290, 70],
 				[250, 110], [270, 110]];
 
-	drawBlocks(points_1, '#left_bottom_content');
-	drawBlocks(points_2, '#right_top_content');
-	startBlocksAnimation();
+	draw_blocks(points_1, '#left_bottom_content');
+	draw_blocks(points_2, '#right_top_content');
+	start_blocks_animation();
 	
 	menu_points = [[25, 25]];
 	var links = ['<a href="./inicio.html">Regresar</a>'];
-	drawMenu(menu_points, 'div#backer', links, 'left');
+	draw_menu(menu_points, 'div#backer', links, 'left');
 });

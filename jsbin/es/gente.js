@@ -13,10 +13,10 @@ $(document).ready(function(){
 				[120, 430], [200, 430]
 			];
 
-	drawBlocks(points, '#right_content');
-	startBlocksAnimation();
+	draw_blocks(points, '#right_content');
+	start_blocks_animation();
 	
 	menu_points = [[25, 25]];
 	var links = ['<a href="./inicio.html">Regresar</a>'];
-	drawMenu(menu_points, 'div#backer', links, 'left');
+	draw_menu(menu_points, 'div#backer', links, 'left');
 });
