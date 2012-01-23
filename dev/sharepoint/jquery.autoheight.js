@@ -3,7 +3,7 @@ function doIframe(){
 	for(i=0;i<o.length;i++){
 		if (/\bautoHeight\b/.test(o[i].className)){
 			setHeight(o[i]);
-			addEvent(o[i],'load', doIframe);
+			addEvent(o[i],'load', setHeight);
 		}
 	}
 }

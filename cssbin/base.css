@@ -52,61 +52,6 @@ color:#fff;
 text-decoration:none;
 }
 
-.gendai_back_menu {
-background:url(../img/icons_sprite.png) no-repeat -777px -44px;
-color:#fff;
-display:inline-block;
-font-family:'Century Gothic', sans-serif;
-font-size:12px;
-font-weight:400;
-height:25px;
-left:0;
-letter-spacing:-1px;
-line-height:25px;
-padding-right:15px;
-position:absolute;
-text-align:right;
-text-decoration:none;
-top:0;
-width:103px;
-}
-
-.gendai_block {
-display:inline-block;
-height:39px;
-left:0;
-position:absolute;
-top:0;
-width:39px;
-}
-
-.gendai_block_alpha {
-background:url(../img/icons_sprite.png) no-repeat -723px -160px;
-}
-
-.gendai_block_beta {
-background:url(../img/icons_sprite.png) no-repeat -723px -201px;
-}
-
-.gendai_menu {
-background:url(../img/icons_sprite.png) no-repeat -659px -71px;
-color:#fff;
-display:inline-block;
-font-family:'Century Gothic', sans-serif;
-font-size:12px;
-font-weight:400;
-height:25px;
-left:0;
-letter-spacing:-1px;
-line-height:25px;
-padding-left:15px;
-position:absolute;
-text-align:left;
-text-decoration:none;
-top:0;
-width:103px;
-}
-
 .header {
 height:95px;
 margin-bottom:25px;
@@ -157,6 +102,73 @@ margin-right:auto;
 width:720px;
 }
 
+.navi_container {
+position:relative;
+}
+
+.navi_container div {
+background:url(../img/icons_sprite.png) no-repeat -723px -201px;
+display:inline-block;
+height:15px;
+position:absolute;
+width:15px;
+}
+
+.navi_container div.super {
+background:url(../img/icons_sprite.png) no-repeat -723px -160px;
+}
+
+.navi_menu {
+display:inline-block;
+list-style-type:none;
+margin:0;
+padding:0;
+width:118px;
+}
+
+.navi_menu a {
+background:url(../img/icons_sprite.png) no-repeat -659px -71px;
+color:#fff;
+display:inline-block;
+font-family:'Century Gothic', sans-serif;
+font-size:12px;
+font-weight:400;
+height:25px;
+left:0;
+letter-spacing:-1px;
+line-height:25px;
+margin-left:-118px;
+margin-top:-5px;
+padding-left:15px;
+position:absolute;
+text-align:left;
+text-decoration:none;
+top:0;
+width:103px;
+z-index:99;
+}
+
+.navi_menu a:hover {
+background:url(../img/icons_sprite.png) no-repeat -777px -71px;
+color:#fff;
+margin-left:-108px;
+}
+
+.navi_menu a:hover + div {
+background:url(../img/icons_sprite.png) no-repeat -723px -160px;
+}
+
+.navi_menu.reverse a {
+background:url(../img/icons_sprite.png) no-repeat -777px -44px;
+margin-left:15px;
+margin-top:-5px;
+}
+
+.navi_menu.reverse a:hover {
+background:url(../img/icons_sprite.png) no-repeat -659px -44px;
+margin-left:5px;
+}
+
 .rpipe {
 background:url(../img/icons_sprite.png) no-repeat -734px -98px;
 float:right;
@@ -175,7 +187,12 @@ width:9px;
 }
 
 a {
-color:#00C2FF;
+color:#333;
+text-decoration:none;
+}
+
+a:hover {
+color:#00c2ff;
 }
 
 body {
@@ -185,7 +202,7 @@ padding:0;
 }
 
 h1 {
-color:#B04;
+color:#b04;
 display:inline-block;
 font-family:'Trebuchet MS', Helvetica, sans-serif;
 font-size:19px;

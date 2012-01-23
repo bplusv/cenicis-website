@@ -8,17 +8,23 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 <title>UACJ - Desarrollo de Software</title>
 <h1 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/inicio.html">UACJ - Desarrollo de Software</a></h1>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/contacto.html">CenICIS - Contacto</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/gente.html">CenICIS - Gente</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/mision-y-vision.html">CenICIS - Misión y Visión</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/objetivos.html">CenICIS - Objetivos</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/proyectos.html">CenICIS - Proyectos</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/publicaciones.html">CenICIS - Publicaciones</a></h2>
+<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/servicios.html">CenICIS - Servicios</a></h2>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://www.uacj.mx/IIT/CenICIS/Paginas/jsbin/jquery.autoheight.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('body').css('background', '#fff');
-		$('.shadowLeft').css('background', '#fff');
-		$('.shadowRight').css('background', '#fff');
+		$('#dyna').attr('scrolling', 'no')
 	});
 </script>
+<script type="text/javascript" src="http://www.uacj.mx/IIT/CenICIS/Paginas/jsbin/jquery.autoheight.js"></script>
 
-<iframe id="dyna" class="autoHeight" style="position:relative;left:-57px;width:720px;overflow:hidden;" scrolling="no" frameborder="0" src="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/inicio.html">
+<iframe id="dyna" class="autoHeight" style="position:relative;left:-57px;min-height:819px;width:720px;overflow:hidden;" scrolling="yes" frameborder="0" src="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/inicio.html">
 Your browser does not support inline frames or is currently configured not to display inline frames.
 </iframe>
 

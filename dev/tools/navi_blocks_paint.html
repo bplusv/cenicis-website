@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+		#canvas {
+			border:1px solid #ccc;
+			height:400px;
+			margin-bottom:25px;
+			position:relative;
+			width:100%;
+		}
+		#canvas div, #cursor {
+			background:#888;
+			border:1px solid #00f;
+			display:inline-block;
+			height:9px;
+			position:absolute;
+			width:9px;
+		}
+		#info_tip {
+			float:right;
+		}
+		#output {
+			height:200px;
+			margin-bottom:25px;
+			width:100%;
+		}
+		#erase {
+			float:left;
+		}
+		#status {
+			float:left;
+			margin-left:35px;
+			visibility:hidden;
+		}
+		body {
+			position:relative;
+		}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		/*
+		 * @author Luis Eduardo Salazar Valles
+		 * base.js v1.2
+		 * 1/21/2012
+		 *
+		 * bp.lusv@gmail.com
+		 */
+		var block_size = 10;
+		var drawing = false;
+		var erasing = false;
+		var output = "";
+		function update_coords(x, y) {
+			status_x = Math.floor((x) / block_size) * block_size;
+			status_y = Math.floor((y) / block_size) * block_size;
+			$('#status').html(status_x + ', ' + status_y);
+		}
+		function draw_code() {
+			$('#canvas').html($('#output').val());
+		}
+		function output_code() {
+			$('#output').val($('#canvas').html());
+		}
+		function draw_block(x, y) {
+			block_x = Math.floor((x) / block_size) * block_size;
+			block_y = Math.floor((y) / block_size) * block_size;
+			var result = $('#canvas div[style*="left:' + block_x + 'px"][style*="top:' + block_y + 'px"]');
+			if (result.size() === 0) {
+				output = $('#canvas').html();
+				output += '<div style="left:' + block_x + 'px; top:' + block_y + 'px"></div>';
+				$('#canvas').html(output);
+				output_code();
+			}
+		}
+		function erase_block(x, y) {
+			navi_blocks = $('#canvas div');
+			navi_blocks.each(function(index) {
+				if (x >= $(this).position().left &&
+					x <= $(this).position().left + block_size &&
+					y >= $(this).position().top &&
+					y <= $(this).position().top + block_size) {
+					var block = $(navi_blocks.get(index));
+					block.remove();
+				}
+			});
+			output_code();
+		}
+		$(document).ready(function() {
+			$('#canvas').bind("contextmenu",function(e){
+				return false;
+			});
+			$("#output").focus(function() {
+				$(this).select();
+				$(this).mouseup(function() {
+					$(this).unbind("mouseup");
+					return false;
+				});
+			});
+			$('#erase').click(function() {
+				$('#canvas').html('');
+				output_code();
+			});
+			$('#output').keyup(function() {
+				draw_code();
+			});
+			$(document).mouseup(function(e) {
+				switch(e.which) {
+					case 1:
+						drawing = false;
+					break;
+					case 3:
+						erasing = false;
+					break;
+				}
+			});
+			$('#canvas').mousedown(function(e) {
+				var offset = $(this).offset();
+				var x = e.pageX - offset.left;
+				var y = e.pageY - offset.top;
+
+				switch(e.which) {
+					case 1:
+						drawing = true;
+						erasing = false;
+						draw_block(x, y);
+					break;
+					case 3:
+						drawing = false;
+						erasing = true;
+						erase_block(x, y);
+					break;
+				}
+			});
+			$('#canvas').mousemove(function(e) {
+				var offset = $(this).offset();
+				var x = e.pageX - offset.left;
+				var y = e.pageY - offset.top;
+				update_coords(x, y);
+				
+				if (drawing === true) {
+					draw_block(x, y);
+				} else if (erasing === true) {
+					erase_block(x, y);
+				}
+			});
+			$('#canvas').mouseleave(function() {
+				$('#status').css('visibility', 'hidden');
+			});
+			$('#canvas').mouseenter(function() {
+				$('#status').css('visibility', 'visible');
+			});
+		});
+	</script>
+</head>
+<html>
+	<body>
+		<div>
+			<span id="info_tip">Left click: draw  |  Right click: erase</span>
+			<button id="erase">Erase</button>
+			<span id="status">0, 0</span>
+		</div>
+		<div style="clear:both;"></Sdiv>
+		<div id="canvas"></div>
+		<textarea id="output" cols="50" rows="1000"></textarea>
+	</body>
+</html>

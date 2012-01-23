@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<style type="text/css">
+		.io {
+			height:200px;
+			margin-bottom:25px;
+			width:100%;
+		}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		/*
+		 * @author Luis Eduardo Salazar Valles
+		 * base.js v1.2
+		 * 1/21/2012
+		 *
+		 * bp.lusv@gmail.com
+		 */
+		function make_blocks() {
+			input = $('#input').val();
+			pairs = input.split("\n");
+			coord = "";
+			output = "";
+			for (i in pairs) {
+				coord = pairs[i].split(",");
+				output += '<div style="left:' + coord[0] + 'px;top:' + coord[1] +'px;"></div>';
+			}
+			$('#output').val(output);
+		}
+		$(document).ready(function() {
+			$('#input').keyup(function() {
+				make_blocks();
+			});
+			$('#output').focus(function() {
+				$(this).select();
+				$(this).mouseup(function() {
+					$(this).unbind("mouseup");
+					return false;
+				});
+			});
+		});
+	</script>
+</head>
+<html>
+	<body>
+		<div>
+			<p>[&lt;x&gt;,&lt;y&gt;\n]</p>
+		</div>
+		<textarea id="input" class="io" cols="50" rows="1000"></textarea>
+		<textarea id="output" class="io" cols="50" rows="1000"></textarea>
+	</body>
+</html>
