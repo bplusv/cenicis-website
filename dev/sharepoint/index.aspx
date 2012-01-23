@@ -6,26 +6,33 @@
 <meta name="keywords" content="UACJ,software,programadores,ingeniería de software,aplicaciones móviles,UML,
 		PSP,ingeniería de requisitos,ingeniería del conocimiento,páginas web" />
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<title>UACJ - Desarrollo de Software</title>
-<h1 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/inicio.html">UACJ - Desarrollo de Software</a></h1>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/contacto.html">CenICIS - Contacto</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/gente.html">CenICIS - Gente</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/mision-y-vision.html">CenICIS - Misión y Visión</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/objetivos.html">CenICIS - Objetivos</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/proyectos.html">CenICIS - Proyectos</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/publicaciones.html">CenICIS - Publicaciones</a></h2>
-<h2 style="display:none;"><a href="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/servicios.html">CenICIS - Servicios</a></h2>
+<title>UACJ Ingeniería de software - Cenicis Inicio</title>
 
+<link rel="stylesheet" type="text/css" href="../../cssbin/base.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('#dyna').attr('scrolling', 'no')
-	});
-</script>
-<script type="text/javascript" src="http://www.uacj.mx/IIT/CenICIS/Paginas/jsbin/jquery.autoheight.js"></script>
+<script type="text/javascript" src="../../jsbin/base.js"></script>
 
-<iframe id="dyna" class="autoHeight" style="position:relative;left:-57px;min-height:819px;width:720px;overflow:hidden;" scrolling="yes" frameborder="0" src="http://www.uacj.mx/IIT/CenICIS/Paginas/www/es/inicio.html">
-Your browser does not support inline frames or is currently configured not to display inline frames.
-</iframe>
-
+<div id="wrapper" style="position:relative;left:-57px;height:auto;width:720px;">
+	<div id="main" class="main">
+		<div id="header" class="header">
+			<a href="#!index"  id="header_home_link" class="header_home_link"></a>
+			<h1 id="header_title" class="header_title">Centro de Ingeniería del Conocimiento e Ingeniería de Software</h1>
+			<div class="clearer"></div>
+		</div>
+		<div id="backer" class="backer navi_container">
+			<ul id="navi_menu_reverse" class="navi_menu reverse">
+				<li><a href="#!index" style="left:25px;top:25px;">Regresar</a><div style="left:25px;top:25px;"></div></li>
+			</ul>
+		</div>
+		<div id="central" class="central">
+		</div>
+		<div class="clearer"></div>
+		<div id="footer" class="footer">
+			<p class="footer_text">
+				Instituto de Ingeniería y Tecnología | Av. del Charro #610 Norte<br />
+				(656)688-48-00 al 09 ext. 6473 | cis@uacj.mx
+			</p>
+		</div>
+	</div>
+</div>
 </asp:Content>

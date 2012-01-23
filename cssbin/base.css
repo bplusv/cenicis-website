@@ -2,11 +2,13 @@
 height:75px;
 overflow:visible;
 position:relative;
-width:100%;
+width:50%;
+visibility:hidden;
 }
 
 .central {
 height:auto;
+min-height:400px;
 position:relative;
 width:100%;
 }
@@ -36,20 +38,6 @@ position:absolute;
 text-align:center;
 top:155px;
 width:360px;
-}
-
-.footer_w3validators{
-color:#fff;
-font-family:Tahoma, Geneva, sans-serif;
-font-size:8px;
-left:618px;
-position:absolute;
-top:190px;
-}
-
-.footer_w3validators > a{
-color:#fff;
-text-decoration:none;
 }
 
 .header {
@@ -236,7 +224,7 @@ margin:0 0 15px 0;
 
 ul {
 list-style-type:circle;
-margin-bottom:35px;
+margin-bottom:50px;
 margin-top:0;
 }
 

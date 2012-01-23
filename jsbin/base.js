@@ -49,6 +49,8 @@ jQuery.extend( jQuery.easing,
 	}
 });
 
+var $backer;
+var $central_container;
 var $navi_blocks;
 var $navi_menu_links;
 var fx_shake_x = 0;
@@ -71,7 +73,7 @@ function fx_loop() {
 			var f_left = parseFloat($this.attr('f_left')) + fx_shake_x * shake_factor;
 			var f_top = parseFloat($this.attr('f_top')) + fx_shake_y * shake_factor;
 			$this.animate(
-				{ left: f_left, top: f_top },
+				{ left: f_left - $this.width() / 2, top: f_top - $this.height() / 2 },
 				{ queue: false, duration: 3000, easing:'easeOutElastic' }
 			);
 		}
@@ -82,14 +84,18 @@ function animate_blocks() {
 	$navi_blocks.each(function(index) {
 		var $this = $(this);
 		var size = Math.floor(Math.random() * 30) + 10;
-		var f_left = $this.position().left - size / 2;
-		var f_top = $this.position().top - size / 2;
 		var c_left = $this.parents('.navi_container').width() / 2;
 		var c_top = $this.parents('.navi_container').height() / 2;
-		$this.css('left', c_left);
-		$this.css('top', c_top);
 		$this.css('width', size);
 		$this.css('height', size);
+		var f_left = $this.attr('f_left') === undefined ?
+			$this.position().left :
+			parseFloat($this.attr('f_left'));
+		var f_top = $this.attr('f_top') === undefined ?
+			$this.position().top :
+			parseFloat($this.attr('f_top'));
+		$this.css('left', c_left);
+		$this.css('top', c_top);
 		var opacity = (Math.floor(Math.random() * 70) + 20) * .01;
 		$this.css('opacity', opacity);
 		$this.attr('dimmer', 'true');
@@ -105,7 +111,7 @@ function animate_blocks() {
 			var f_top = parseFloat($this.attr('f_top'));
 			$this.stop(true).fadeTo(0, 1.0);
 			$this.attr('dimmer', 'false');
-			$this.animate({ left: f_left, top: f_top },
+			$this.animate({ left: f_left - $this.width() / 2 , top: f_top - $this.height() / 2 },
 				{ queue: false, duration: 0 }
 			);
 		});
@@ -113,7 +119,7 @@ function animate_blocks() {
 			$this.fadeTo(500, 0.3);
 			$this.attr('dimmer', 'true');
 		});
-		$this.animate({ left: f_left, top: f_top },
+		$this.animate({ left: f_left - $this.width() / 2, top: f_top - $this.height() / 2 },
 			{ queue: false, duration: move_duration, easing: 'easeOutElastic' }
 		);
 	});
@@ -138,8 +144,13 @@ function animate_menus() {
 				{ queue: false, duration: 200 }
 			);
 			$that = $this.next();
+			var f_left = parseFloat($that.attr('f_left'));
+			var f_top = parseFloat($that.attr('f_top'));
 			$that.stop(true).fadeTo(0, 1.0);
 			$that.attr('dimmer', 'false');
+			$that.animate({ left: f_left - $that.width() / 2, top: f_top - $that.height() / 2 },
+				{ queue: false, duration: 0 }
+			);		
 		});
 		$this.mouseleave(function() {
 			$this = $(this);
@@ -158,11 +169,38 @@ function animate_menus() {
 	});
 }
 
+function load_content(template) {
+	var template_path = 'templates/' + template + '.tpl';
+	$central_container.fadeTo(0, 0.2);
+	$central_container.load(template_path, function(r,s,x) {
+		if (s === 'success') {
+			template === 'index' ? $backer.css('visibility', 'hidden') :
+				$backer.css('visibility', 'visible');
+			$navi_blocks = $('.navi_container div');
+			$navi_menu_links = $('.navi_menu a');
+			$central_container.fadeTo(500, 1.0);
+			animate_blocks();
+			animate_menus();
+		} else {
+			$central_container.fadeTo(500, 1.0);
+		}
+	});
+}
+
 $(document).ready(function() {
-	$navi_blocks = $('.navi_container div');
-	$navi_menu_links = $('.navi_menu a');
-	animate_blocks();
-	animate_menus();
+	$backer = $('#backer');
+	$central_container = $('#central');
+	load_content('index');
+	$('a').live('click', function(e) {
+		$this = $(this);
+		var href = $this.attr('href');
+		var hash_loc = href.search('#!');
+		if (hash_loc > -1) {
+			e.preventDefault();
+			var template = $this.attr('href').substring(hash_loc + 2);
+			load_content(template);
+		}
+	});
 	setTimeout(function() {
 		setInterval(fx_loop, 250);
 	}, 1000);
