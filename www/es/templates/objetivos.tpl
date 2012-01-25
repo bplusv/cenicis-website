@@ -8,7 +8,6 @@
 	}
 
 	.text_2 {
-		list-style-type: none;
 		padding-left: 0;
 		text-align: justify;
 	}
@@ -47,16 +46,16 @@
 		<h1>Objetivos</h1>
 		<div class="clearer"></div>
 	</div>	
-	<ol id="text_2" class="text_2">
-		<li>O1. Proveer de soluciones en TI de alta calidad, en tiempo y dentro del presupuesto.</li>
-		<li>O2. Realizar investigación científica aplicada en las áreas de ingeniería de software e ingeniería del conocimiento para solución de problemas.</li>
-		<li>O3. Incorporar estudiantes en los proyectos de desarrollo de software.</li>
-		<li>O4. Incorporar estudiantes para participar en investigaciones.</li>
-		<li>O5. Obtener una certificación MoProSoft.</li>
-		<li>O6. Mejora continua del recurso humano.</li>
-		<li>O7. Mejorar el uso de los recursos de la organización.</li>
-		<li>O8. Acceder a recursos externos para el CenICIS.</li>
-	</ol>
+	<ul id="text_2" class="text_2">
+		<li>Proveer de soluciones en TI de alta calidad, en tiempo y dentro del presupuesto.</li>
+		<li>Realizar investigación científica aplicada en las áreas de ingeniería de software e ingeniería del conocimiento para solución de problemas.</li>
+		<li>Incorporar estudiantes en los proyectos de desarrollo de software.</li>
+		<li>Incorporar estudiantes para participar en investigaciones.</li>
+		<li>Obtener una certificación MoProSoft.</li>
+		<li>Mejora continua del recurso humano.</li>
+		<li>Mejorar el uso de los recursos de la organización.</li>
+		<li>Acceder a recursos externos para el CenICIS.</li>
+	</ul>
 </div>
 <div id="bottom_content" class="bottom_content navi_container">
 	<div style="left:130px;top:50px;"></div><div style="left:170px;top:50px;"></div><div style="left:210px;top:50px;"></div><div style="left:250px;top:50px;"></div><div style="left:210px;top:90px;"></div><div style="left:250px;top:90px;"></div><div style="left:170px;top:130px;"></div><div style="left:250px;top:130px;"></div><div style="left:130px;top:170px;"></div><div style="left:250px;top:170px;"></div><div style="left:90px;top:210px;"></div>

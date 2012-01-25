@@ -40,6 +40,20 @@ top:155px;
 width:360px;
 }
 
+.footer_author {
+color:#fff;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:8px;
+left:642px;
+position:absolute;
+top:188px;
+}
+
+.footer_author:hover{
+color:#fff;
+text-decoration:none;
+}
+
 .header {
 height:95px;
 margin-bottom:25px;
@@ -180,7 +194,7 @@ text-decoration:none;
 }
 
 a:hover {
-color:#00c2ff;
+color:#b04;
 }
 
 body {
