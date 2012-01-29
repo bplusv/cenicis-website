@@ -1,4 +1,4 @@
-﻿/*
+/*
  * @author Luis Eduardo Salazar Valles
  * base.js v1.2
  * 1/21/2012
