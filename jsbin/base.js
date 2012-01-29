@@ -169,12 +169,19 @@ function animate_menus() {
 	});
 }
 
-function load_content(template) {
-	var template_path = 'templates/' + template + '.tpl';
+function ajax_update() {
+	var hash = document.location.hash.substring(2, document.location.hash.length);
+	hash = hash.split("&");
+	var hash_values = {};
+	hash_values["section"] = "index";
+	for (i in hash) {
+		hash_values[hash[i].split("=")[0]] = hash[i].split("=")[1]; 
+	}
+	var template_path = 'templates/' + hash_values["section"] + '.tpl';
 	$central_container.fadeTo(0, 0.2);
 	$central_container.load(template_path, function(r,s,x) {
 		if (s === 'success') {
-			template === 'index' ? $backer.css('visibility', 'hidden') :
+			hash_values["section"] === 'index' ? $backer.css('visibility', 'hidden') :
 				$backer.css('visibility', 'visible');
 			$navi_blocks = $('.navi_container div');
 			$navi_menu_links = $('.navi_menu a');
@@ -190,17 +197,8 @@ function load_content(template) {
 $(document).ready(function() {
 	$backer = $('#backer');
 	$central_container = $('#central');
-	load_content('index');
-	$('a').live('click', function(e) {
-		$this = $(this);
-		var href = $this.attr('href');
-		var hash_loc = href.search('#!');
-		if (hash_loc > -1) {
-			e.preventDefault();
-			var template = $this.attr('href').substring(hash_loc + 2);
-			load_content(template);
-		}
-	});
+	$(window).bind('hashchange', ajax_update);
+	ajax_update();
 	setTimeout(function() {
 		setInterval(fx_loop, 250);
 	}, 1000);

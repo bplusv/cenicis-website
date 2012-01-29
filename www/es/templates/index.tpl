@@ -36,13 +36,13 @@
 	<div id="left_content" class="left_content navi_container">
 		<div style="left:210px;top:30px;"></div><div style="left:230px;top:30px;"></div><div style="left:250px;top:30px;"></div><div style="left:270px;top:30px;"></div><div style="left:170px;top:70px;"></div><div style="left:290px;top:70px;"></div><div style="left:310px;top:70px;"></div><div style="left:150px;top:110px;"></div><div style="left:310px;top:110px;"></div><div style="left:330px;top:110px;"></div><div style="left:150px;top:150px;"></div><div style="left:310px;top:150px;"></div><div style="left:330px;top:150px;"></div><div style="left:170px;top:190px;"></div><div style="left:290px;top:190px;"></div><div style="left:310px;top:190px;"></div><div style="left:190px;top:230px;"></div><div style="left:270px;top:230px;"></div><div style="left:290px;top:230px;"></div><div style="left:210px;top:270px;"></div><div style="left:250px;top:270px;"></div><div style="left:270px;top:270px;"></div><div style="left:210px;top:310px;"></div><div style="left:250px;top:310px;"></div><div style="left:210px;top:350px;"></div><div style="left:230px;top:350px;"></div><div style="left:250px;top:350px;"></div>
 		<ul id="navi_menu" class="navi_menu">
-			<li><a href="#!contacto" style="left:190px; top:30px;">Contacto</a><div style="left:190px;top:30px;"></div></li>
-			<li><a href="#!gente" style="left:150px; top:70px;">Gente</a><div style="left:150px;top:70px;"></div></li>
-			<li><a href="#!mision-y-vision" style="left:130px; top:110px;">Misi&oacute;n y Visi&oacute;n</a><div style="left:130px;top:110px;"></div></li>
-			<li><a href="#!objetivos" style="left:130px; top:150px;">Objetivos</a><div style="left:130px;top:150px;"></div></li>
-			<li><a href="#!proyectos" style="left:150px; top:190px;">Proyectos</a><div style="left:150px;top:190px;"></div></li>
-			<li><a href="#!publicaciones"  style="left:170px; top:230px;">Publicaciones</a><div style="left:170px;top:230px;"></div></li>
-			<li><a href="#!servicios"  style="left:190px; top:270px;">Servicios</a><div style="left:190px;top:270px;"></div></li>
+			<li><a href="#!section=contacto" style="left:190px; top:30px;">Contacto</a><div style="left:190px;top:30px;"></div></li>
+			<li><a href="#!section=gente" style="left:150px; top:70px;">Gente</a><div style="left:150px;top:70px;"></div></li>
+			<li><a href="#!section=mision-y-vision" style="left:130px; top:110px;">Misi&oacute;n y Visi&oacute;n</a><div style="left:130px;top:110px;"></div></li>
+			<li><a href="#!section=objetivos" style="left:130px; top:150px;">Objetivos</a><div style="left:130px;top:150px;"></div></li>
+			<li><a href="#!section=proyectos" style="left:150px; top:190px;">Proyectos</a><div style="left:150px;top:190px;"></div></li>
+			<li><a href="#!section=publicaciones"  style="left:170px; top:230px;">Publicaciones</a><div style="left:170px;top:230px;"></div></li>
+			<li><a href="#!section=servicios"  style="left:190px; top:270px;">Servicios</a><div style="left:190px;top:270px;"></div></li>
 		</ul>
 	</div>
 	<div id="right_content" class="right_content">
