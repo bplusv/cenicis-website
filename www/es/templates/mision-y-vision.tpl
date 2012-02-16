@@ -66,7 +66,7 @@
 			<div class="clearer"></div>
 		</div>	
 		<p id="text_1" class="text_1">	
-			Fortalecer el desarrollo tecnológico de la región en el área de las Tecnologías de la información impulsando y realizando investigación científica y aplicada de alta calidad en Ingeniería de Software e Ingeniería del Conocimiento, vinculándola estrechamente a las necesidades del entorno, fomentando valores étnicos y el respeto al medio ambiente.
+			Fortalecer el desarrollo tecnológico de la región en el área de las Tecnologías de la Información impulsando y realizando investigación científica y aplicada de alta calidad en Ingeniería de Software e Ingeniería del Conocimiento, vinculándola estrechamente a las necesidades del entorno, fomentando valores étnicos y el respeto al medio ambiente.
 		</p>
 	</div>
 	<div id="left_bottom_content" class="left_bottom_content navi_container">

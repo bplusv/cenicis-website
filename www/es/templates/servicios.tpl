@@ -63,7 +63,8 @@
 		<div class="clearer"></div>
 	</div>
 	<ul id="text_1" class="text_1">
-		<li style="display:none;"></li>
+		<li>Ingenier&iacute;a de software</li>
+		<li>Ingenier&iacute;a de conocimiento</li>
 	</ul>
 	<div id="title_1_sub_2" class="title_1_sub_2">
 		<span class="lpipe"></span>
@@ -72,9 +73,11 @@
 		<div class="clearer"></div>
 	</div>
 	<ul id="text_2" class="text_2">
-		<li>Páginas Web</li>
+		<li>Aplicaciones con agentes</li>
+		<li>Aplicaciones orientadas a servicios</li>
+		<li>Aplicaciones distribuidas (Web)</li>
 		<li>Aplicaciones de escritorio</li>
-		<li>Software para dispositivos móviles</li>
+		<li>Software para dispositivos m&oacute;viles</li>
 	</ul>
 	<div id="title_1_sub_3" class="title_1_sub_3">
 		<span class="lpipe"></span>
@@ -83,12 +86,15 @@
 		<div class="clearer"></div>
 	</div>
 	<ul id="text_3" class="text_3">
-		<li>Análisis y Diseño Orientado a Objetos</li>
-		<li>UML</li>
+		<li>Análisis y diseño orientado a objetos utilizando UML</li>
 		<li>PSP (Personal Software Process)</li>
 		<li>Ingeniería de software básica e intermedia</li>
+		<li>Ingeniería de conocimiento (análisis de datos, minería de datos)</li>
 		<li>Procesos de desarrollo</li>
 		<li>Ingeniería de requisitos</li>
+		<li>Introducción a aplicaciones cliente-servidor utilizando Java</li>
+		<li>Introducción al desarrollo de aplicaciones móviles</li>
+		<li>Verificación y validación de software</li>
 	</ul>
 	<div id="title_1_sub_4" class="title_1_sub_4">
 		<span class="lpipe"></span>
@@ -99,6 +105,8 @@
 	<ul id="text_4" class="text_4">
 		<li>Identificación, evaluación, mejora y documentación de procesos de desarrollo de software</li>
 		<li>Asesoría en la administración de proyectos de software</li>
+		<li>Asesoría en el desarrollo de software</li>
+		<li>Asesoría en diseño e implementación de TI</li>
 	</ul>
 </div>
 <div id="right_content" class="right_content navi_container">

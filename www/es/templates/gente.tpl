@@ -63,10 +63,10 @@
 		<div class="clearer"></div>
 	</div>	
 	<ul id="text_1" class="text_1">
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/LFFM/Paginas/default.aspx">M. C. Luis Felipe Fernández Martínez</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/KOS/Paginas/default.aspx">M. C. Karla Miroslava Olmos Sánchez</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/JER/Paginas/default.aspx">Dr. Jorge Enrique Rodas Osollo</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/VMR/Paginas/default.aspx">Dr. Victor Manuel Morales Rocha</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/LFFM/Paginas/default.aspx">Fernández Martínez Luis Felipe</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/VMR/Paginas/default.aspx">Morales Rocha Victor Manuel</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/KOS/Paginas/default.aspx">Olmos Sánchez Karla Miroslava</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/JER/Paginas/default.aspx">Rodas Osollo Jorge Enrique</a></li>
 	</ul>
 	<div id="title_2" class="title_2">
 		<span class="lsq_bracket"></span>
@@ -75,10 +75,10 @@
 		<div class="clearer"></div>
 	</div>	
 	<ul id="text_2" class="text_2">
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/BAC/Paginas/default.aspx">Ing. Berenice Acosta Castro</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/PBA/Paginas/default.aspx">Ing. Pedro Bañuelos Aguilar</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/YKOC/Paginas/default.aspx">Ing. Yadira Kiquey Ortíz Chou</a></li>
-		<li><a href="http://www.uacj.mx/IIT/CenICIS/AVA/Paginas/default.aspx">Ing. Raúl Alejandro Vargas Acosta</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/BAC/Paginas/default.aspx">Acosta Castro Berenice</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/PBA/Paginas/default.aspx">Bañuelos Aguilar Pedro</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/YKOC/Paginas/default.aspx">Ortíz Chou Yadira Kiquey</a></li>
+		<li><a href="http://www.uacj.mx/IIT/CenICIS/AVA/Paginas/default.aspx">Vargas Acosta Raúl Alejandro</a></li>
 	</ul>
 	<div id="title_3" class="title_3">
 		<span class="lsq_bracket"></span>
@@ -93,11 +93,11 @@
 		<div class="clearer"></div>
 	</div>					
 	<ul id="text_3" class="text_3">
-		<li>Fernando Esteban Briceño Ramos</li>
-		<li>Emmanuel Cortez Samaniego</li>
-		<li>Ricardo Peñaloza Belmontes</li>
-		<li>Jorge Luis Romero Romero</li>
-		<li>Hector Javier Záyago González</li>
+		<li>Briceño Ramos Fernando Esteban</li>
+		<li>Cortez Samaniego Emmanuel</li>
+		<li>Peñaloza Belmontes Ricardo</li>
+		<li>Romero Romero Jorge Luis</li>
+		<li>Záyago González Hector Javier</li>
 	</ul>
 	<div id="title_3_sub_2" class="title_3_sub_2">
 		<span class="lpipe"></span>
@@ -106,13 +106,13 @@
 		<div class="clearer"></div>
 	</div>	
 	<ul id="text_4" class="text_4">
-		<li>Lizbeth Susana Cabrera Martínez</li>
-		<li>Yanet Del Carmen Garay Santos</li>
-		<li>Federico Jauregui Sánchez</li>
-		<li>Luis Eduardo Salazar Valles</li>
-		<li>Jesús Servando Cerna Cerna</li>
-		<li>Edgar Omar Tello Pérez</li>
-		<li>Jorge Zeferino Cruz</li>
+		<li>Cabrera Martínez Lizbeth Susana</li>
+		<li>Cerna Cerna Jesús Servando</li>
+		<li>Garay Santos Yanet Del Carmen</li>
+		<li>Jauregui Sánchez Federico</li>
+		<li>Salazar Valles Luis Eduardo</li>
+		<li>Tello Pérez Edgar Omar</li>
+		<li>Zeferino Cruz Jorge</li>
 	</ul>
 	<div id="title_3_sub_3" class="title_3_sub_3">
 		<span class="lpipe"></span>
@@ -121,7 +121,7 @@
 		<div class="clearer"></div>
 	</div>	
 	<ul id="text_5" class="text_5">
-		<li>José Damián Sarabia Saavedra</li>
+		<li>Sarabia Saavedra José Damián</li>
 	</ul>
 </div>
 <div id="right_content" class="right_content navi_container">

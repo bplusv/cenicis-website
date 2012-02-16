@@ -49,7 +49,7 @@
 		<div id="title_1" class="title_1">
 			<span class="lsq_bracket"></span>
 			<span class="rsq_bracket"></span>
-			<h1>Actualmente en Cenicis</h1>
+			<h1>Actualmente en CenICIS</h1>
 			<div class="clearer"></div>
 		</div>	
 		<p id="text_1" class="text_1">

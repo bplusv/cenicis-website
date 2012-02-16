@@ -62,6 +62,9 @@
 		margin-right: auto;
 		width: 720px;
 	}
+	.text_3 {
+		display: none;
+	}
 </style>
 <div id="top_content" class="top_content">
 	<div id="title_1" class="title_1">
@@ -90,7 +93,7 @@
 	</div>
 	<ul id="text_2" class="text_2">
 		<li>Software de administración para PROMEP - UACJ (AdminPromep)</li>
-		<li>Fortalecimiento de la infraestructura científica y tecnológica del Cenicis, con apoyo FOMIX</li>
+		<li>Fortalecimiento de la infraestructura científica y tecnológica del CenICIS con apoyo FOMIX</li>
 		<li>Sistema Columbus</li>
 		<li>InterMaps - Rectoría</li>
 		<li>Telemedicina</li>
