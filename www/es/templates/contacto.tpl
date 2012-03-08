@@ -31,7 +31,7 @@
 	}
 	
 	.pic_content {
-		background-image: url(../../img/cenicis_place.png);
+		background-image: url(../../img/cenicis_place.jpg);
 		display: inline-block;
 		height: 675px;
 		left: -105px;
