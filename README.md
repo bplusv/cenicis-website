@@ -1,2 +1,2 @@
-Code for CenICIS website structure and animations
-===============
+# CenICIS website
+Code for CenICIS website structure and animations.
